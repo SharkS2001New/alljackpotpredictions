@@ -24,9 +24,9 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Football Prediction Tips, Jackpot Accas &amp; Betting Tips Today | AllJackpotPredictions</title>
-<meta name="description" content="Free football prediction tips and jackpot accumulator picks for today — data-driven and updated daily across Premier League, Champions League, La Liga, Bundesliga and more. No login required.">
-<meta name="keywords" content="football prediction tips, jackpot predictions, betting tips today, free football tips, accumulator tips, jackpot picks, BTTS tips, over 2.5 tips, must win teams, premier league tips">
+<title>Jackpot Predictions, Daily Accas &amp; Free Football Tips | AllJackpotPredictions</title>
+<meta name="description" content="Build smarter jackpot slips and daily accumulators with free football tips from AllJackpotPredictions. SportPesa, Betika and multi-market picks updated every day — entertainment only, 18+.">
+<meta name="keywords" content="jackpot predictions, sportpesa jackpot, betika midweek jackpot, accumulator tips, football tips today, free betting tips, jackpot picks, BTTS tips, over 2.5 tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/">
  
@@ -72,22 +72,22 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
 <!-- Open Graph — Facebook, LinkedIn, WhatsApp, Telegram link previews -->
 <meta property="og:type"        content="website">
 <meta property="og:url"         content="https://www.alljackpotpredictions.com/">
-<meta property="og:title"       content="Football Prediction Tips, Jackpot Accas &amp; Betting Tips Today | AllJackpotPredictions">
-<meta property="og:description" content="Expert football prediction tips for today — free, data-driven, updated daily. Premier League, Champions League, La Liga, Bundesliga and more.">
+<meta property="og:title"       content="Jackpot Predictions, Daily Accas &amp; Free Football Tips | AllJackpotPredictions">
+<meta property="og:description" content="Jackpot sheets, banker anchors and free multi-market tips — built for accumulator builders. Updated daily. 18+ gamble responsibly.">
 <meta property="og:image"       content="https://www.alljackpotpredictions.com/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt"   content="AllJackpotPredictions — Football Prediction Tips">
+<meta property="og:image:alt"   content="AllJackpotPredictions — Jackpot predictions and football tips">
 <meta property="og:site_name"   content="AllJackpotPredictions">
 <meta property="og:locale"      content="en_GB">
  
 <!-- Twitter / X Card -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@AllJackpotPredictions">
-<meta name="twitter:title"       content="Football Prediction Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free, data-driven football prediction tips updated daily. No login required.">
+<meta name="twitter:title"       content="Jackpot Predictions &amp; Free Acca Tips | AllJackpotPredictions">
+<meta name="twitter:description" content="SportPesa &amp; Betika jackpot ideas plus free daily football tips. Entertainment only.">
 <meta name="twitter:image"       content="https://www.alljackpotpredictions.com/img/og-image.png">
-<meta name="twitter:image:alt"   content="AllJackpotPredictions — Football Prediction Tips">
+<meta name="twitter:image:alt"   content="AllJackpotPredictions — Jackpot predictions and football tips">
  
 <!-- ═══════════════════════════════════════════════════════
      END FAVICON & ICONS
@@ -103,7 +103,7 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
       "@id": "https://www.alljackpotpredictions.com/#website",
       "url": "https://www.alljackpotpredictions.com/",
       "name": "AllJackpotPredictions",
-      "description": "Free football prediction tips and betting tips today. For entertainment purposes only. 18+. Please gamble responsibly."
+      "description": "Jackpot predictions, accumulator ideas and free multi-market football tips. Entertainment only. 18+. Gamble responsibly."
     }
   ]
 }
@@ -543,29 +543,25 @@ $mustWinCount = count($mustWinFixtures);
   <a class="share-btn" href="https://t.me/share/url?url=https://www.alljackpotpredictions.com/" target="_blank" rel="noopener">Telegram</a>
 </div>
 
-<!-- ✅ ARTICLE SECTION — Reworked for E-E-A-T, YMYL and natural keyword integration -->
+<!-- ARTICLE — original AllJackpotPredictions SEO (not TipOracle template) -->
 <section class="article-section" style="margin-bottom:0">
   <div class="article-card">
     <div class="art-header">
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <!-- ✅ Article H2 uses primary keyword in a natural, informational way -->
-        <h2 class="art-h2">Football Prediction Tips Today: How Our Analysts Build Every Betting Tip</h2>
+        <h2 class="art-h2">How AllJackpotPredictions Builds Jackpot Slips, Bankers and Daily Accas</h2>
         <div class="art-meta">
-          <!-- ✅ E-E-A-T: Named team, date, read time, responsible tags -->
-          <span>AllJackpotPredictions Analyst Team</span>
+          <span>AllJackpotPredictions Desk</span>
           <span class="art-sep">·</span>
-          <time datetime="2026-03-20">20 March 2026</time>
+          <time datetime="<?php echo date('Y-m-d'); ?>"><?php echo date('j F Y'); ?></time>
           <span class="art-sep">·</span>
-          <span>Reviewed by Senior Analyst</span>
+          <span>Updated daily</span>
           <span class="art-sep">·</span>
-          <span>12 min read</span>
-          <span class="art-sep">·</span>
-          <span class="art-tag">Prediction Tips</span>
-          <span class="art-tag">Betting Guide</span>
+          <span class="art-tag">Jackpot focus</span>
+          <span class="art-tag">Acca building</span>
           <span class="art-tag warn">⚠ 18+ | Gamble Responsibly</span>
         </div>
       </div>
@@ -573,155 +569,138 @@ $mustWinCount = count($mustWinFixtures);
 
     <div class="art-body">
       <div class="art-col">
-        <!-- ✅ H3 is descriptive and topically relevant -->
-        <h3>What Are Football Prediction Tips?</h3>
-        <!-- ✅ Opening paragraph: primary keyword used once, clearly, in context -->
-        <p>Football prediction tips are research-backed estimates of likely match outcomes — covering markets like 1X2, BTTS, Over/Under goals and correct scores. At AllJackpotPredictions, every betting tip today is built from real match data reviewed by experienced analysts, not automated software. We publish fresh prediction tips daily across all major leagues.</p>
+        <h3>Built for jackpot sheets — not tip spam</h3>
+        <p>AllJackpotPredictions exists for people who fill <strong>SportPesa, Betika, Mozzart, Odibet</strong> and similar multi-leg jackpots, plus everyday accumulators. We publish a full board of free tips, but our editorial priority is clear: high-conviction anchors you can actually place in a slip, not a wall of low-edge noise.</p>
+        <p>Each selection starts with form, expected goals, head-to-head context and confirmed absences. We then ask a jackpot-specific question: does this fixture belong as a <em>banker</em>, a supporting leg, or should it stay off the sheet? That filter is what separates this site from generic “tips today” blogs.</p>
 
-        <h4>What Goes Into Every Prediction Tip</h4>
+        <h4>What we publish every day</h4>
         <ul>
-          <li><strong>Team form</strong> — Last 5–10 results across all competitions</li>
-          <li><strong>Head-to-head records</strong> — Historical matchups between the two sides</li>
-          <li><strong>Squad fitness</strong> — Confirmed injuries, suspensions and rotation risk</li>
-          <li><strong>Home vs away splits</strong> — Many sides perform dramatically differently on the road</li>
-          <li><strong>Goals data</strong> — Average goals scored and conceded per match, and xG models</li>
-          <li><strong>Tactical setup</strong> — High press, low block, counter-attacking or possession systems</li>
-          <li><strong>Motivation &amp; context</strong> — League position, relegation battles, title run-ins, cup pressure</li>
+          <li><strong>Jackpot Picks</strong> — shortlist of highest-conviction bankers for singles or slip anchors</li>
+          <li><strong>Operator jackpot pages</strong> — SportPesa Mega / Midweek, Betika Midweek, Mozzart, Odibet and related sheets</li>
+          <li><strong>Market boards</strong> — 1X2, BTTS, Over/Under, Double Chance, HT/FT and Correct Score</li>
+          <li><strong>Must-win sides</strong> — teams with clear competitive pressure (table, knockout, or survival)</li>
+          <li><strong>Public track record</strong> — wins and losses logged after full time</li>
         </ul>
 
-        <!-- ✅ YMYL: We are clear this is not financial advice before user acts on the content -->
-        <p><em>All football prediction tips on AllJackpotPredictions are published for informational and entertainment purposes only. They do not constitute financial or betting advice. Please read our <a href="/responsible-gambling">responsible gambling guidelines</a> before placing any bet.</em></p>
+        <p><em>Everything here is for entertainment and information only — not financial advice. Read our <a href="/responsible-gambling">responsible gambling guide</a> before you stake.</em></p>
       </div>
 
       <div class="art-col">
-        <h3>Must Win Teams &amp; Jackpot Picks Explained</h3>
-        <p><strong>Must Win Teams</strong> are sides under maximum competitive pressure — a relegation battle, title run-in or knockout elimination. When a team cannot afford to drop points, motivation becomes a measurable edge. Our data shows these sides outperform their average odds significantly in high-pressure fixtures. <a href="/must-win-teams-today">See today's Must Win prediction tips →</a></p>
-        <p><strong>Jackpot Picks</strong> are AllJackpotPredictions' three highest-conviction betting tips today — selected after a full statistical review by our senior analysts. Confidence ratings run 85–92%. These are the picks we stand behind most strongly as single selections or anchor legs in an accumulator. <a href="/jackpot-picks-today">See today's Jackpot Picks →</a></p>
+        <h3>How we treat a jackpot leg</h3>
+        <p>A jackpot slip fails if one weak leg collapses. So we bias toward fixtures with aligned motivation, manageable prices, and a story that still holds if a favourite key player is rotated. Draws are rarely treated as jackpot bankers on this desk — variance is simply too high for long sheets.</p>
+        <p>For shorter daily accas we still prefer 3–5 legs over marathon tickets. Start with one or two <a href="/jackpot-picks-today">Jackpot Picks</a>, then add supporting legs from <a href="/1x2-prediction">1X2</a>, <a href="/btts-tips">BTTS</a> or <a href="/over-2-5-goals">Over 2.5</a> only when confidence and kick-off times fit.</p>
 
-        <h4>How to Use These Football Prediction Tips Responsibly</h4>
+        <h4>Practical staking habits we recommend</h4>
         <ul>
-          <li>Always read the full analyst note before acting on any tip</li>
-          <li>Use only High confidence tips as accumulator selections</li>
-          <li>Treat Jackpot Picks as primary singles candidates</li>
-          <li>Compare prices — our displayed odds are indicative, not guaranteed</li>
-          <li>Set a fixed monthly staking budget and never exceed it</li>
-          <li>Never chase losses or increase stakes after a losing run</li>
+          <li>Decide the slip size before you open the app — not after a loss</li>
+          <li>Use Jackpot Picks as anchors; never pad a sheet with “maybe” legs</li>
+          <li>Compare prices — displayed odds are illustrative, not live bookmaker prices</li>
+          <li>Skip a day when the board is thin — sitting out is a valid decision</li>
+          <li>Never chase a busted jackpot by doubling the next stake</li>
         </ul>
       </div>
 
       <div class="art-col art-full">
-        <h3>Betting Markets Explained</h3>
+        <h3>Markets we cover on the daily board</h3>
         <table class="mkt-table">
-          <thead><tr><th>Market</th><th>What It Means</th><th>Best Used When</th><th>Typical Odds</th></tr></thead>
+          <thead><tr><th>Market</th><th>Role on an AJP slip</th><th>Best when</th></tr></thead>
           <tbody>
-            <tr><td>⚡ Must Win</td><td>Teams that cannot drop points — high-motivation prediction tips</td><td>Relegation battles, title run-ins, cup eliminators</td><td>1.50–2.50</td></tr>
-            <tr><td>◈ Jackpot Picks</td><td>Our 3 top-confidence betting tips today, analyst-verified</td><td>Singles or acca anchors</td><td>1.40–2.00</td></tr>
-            <tr><td>1X2 (Match Result)</td><td>Home Win (1), Draw (X) or Away Win (2)</td><td>Clear form advantage for one side</td><td>1.40–3.50</td></tr>
-            <tr><td>BTTS</td><td>Both sides score at least one goal in the match</td><td>Both teams attack well and defend poorly</td><td>1.60–2.20</td></tr>
-            <tr><td>Over 1.5 Goals</td><td>Two or more goals scored in the match</td><td>Any competitive fixture — very high historical rate</td><td>1.15–1.40</td></tr>
-            <tr><td>Over 2.5 Goals</td><td>Three or more goals scored in the match</td><td>High-scoring teams in strong attacking form</td><td>1.50–2.10</td></tr>
-            <tr><td>Over 3.5 Goals</td><td>Four or more goals scored in the match</td><td>Attack-heavy fixtures or heavy mismatches</td><td>2.00–3.20</td></tr>
-            <tr><td>Under 2.5 Goals</td><td>Two goals or fewer in the match</td><td>Tight rivalries, cautious tactical setups</td><td>1.60–2.00</td></tr>
-            <tr><td>Correct Score</td><td>Predict the exact final scoreline</td><td>Value-seeking accumulators in tight matches</td><td>5.00–15.00+</td></tr>
-            <tr><td>Double Chance</td><td>Cover two of three possible match outcomes</td><td>When you back a team but want insurance</td><td>1.20–1.80</td></tr>
-            <tr><td>Half Time Result</td><td>Predict the scoreline at half time only</td><td>Teams with strong first-half records</td><td>1.80–3.50</td></tr>
-            <tr><td>GG / NG (BTTS/BTTS No)</td><td>Whether or not both teams find the net</td><td>Based on recent scoring records for both sides</td><td>1.50–2.20</td></tr>
+            <tr><td>Jackpot Picks</td><td>Banker / single</td><td>You need a high-conviction anchor</td></tr>
+            <tr><td>Operator jackpots</td><td>Full multi-leg sheet</td><td>SportPesa, Betika, Mozzart, Odibet rounds</td></tr>
+            <tr><td>1X2</td><td>Core match-result legs</td><td>Clear home/away edge without draw noise</td></tr>
+            <tr><td>Double Chance</td><td>Safer supporting leg</td><td>You like a side but want draw cover</td></tr>
+            <tr><td>BTTS</td><td>Goals-based supporting leg</td><td>Both attacks are live; defences leak</td></tr>
+            <tr><td>Over / Under</td><td>Total-goals leg</td><td>xG and tempo point the same way</td></tr>
+            <tr><td>HT / FT</td><td>Specialist / value</td><td>Strong half-time patterns, not volume filling</td></tr>
+            <tr><td>Correct Score</td><td>Long-shot spice only</td><td>Never as a jackpot banker</td></tr>
           </tbody>
         </table>
       </div>
 
-      <!-- ✅ FAQ SECTION — mirrors FAQPage schema exactly; 5 questions for breadth and YMYL coverage -->
       <div class="art-col art-full">
-        <h3>Frequently Asked Questions</h3>
+        <h3>Questions bettors ask us</h3>
         <div class="faq-list">
 
           <input type="checkbox" id="fq1" class="faq-ck">
           <div class="faq-item">
-            <label for="fq1" class="faq-q">Are AllJackpotPredictions' football prediction tips free? <span class="faq-icon">+</span></label>
-            <div class="faq-a"><p>Yes — every football prediction tip on AllJackpotPredictions is 100% free. No subscription, premium tier, or account is required to view any tip.</p></div>
+            <label for="fq1" class="faq-q">Do I need an account to see AllJackpotPredictions tips? <span class="faq-icon">+</span></label>
+            <div class="faq-a"><p>No. Tips, jackpot pages and track record pages are free to browse — no registration wall.</p></div>
           </div>
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' betting tips today? <span class="faq-icon">+</span></label>
-            <div class="faq-a"><p>AllJackpotPredictions maintains a verified 74% win rate this month across all prediction markets. Our full track record — every tip, every result — is published publicly and updated after every match. You can view the complete record on our <a href="/track-record">Track Record page</a>.</p></div>
+            <label for="fq2" class="faq-q">Which jackpots do you cover? <span class="faq-icon">+</span></label>
+            <div class="faq-a"><p>We publish dedicated pages for major East African and regional jackpots — including SportPesa Mega and Midweek, Betika Midweek, Mozzart and Odibet — alongside daily Jackpot Picks you can use on any bookmaker.</p></div>
           </div>
 
           <input type="checkbox" id="fq3" class="faq-ck">
           <div class="faq-item">
-            <label for="fq3" class="faq-q">What leagues do AllJackpotPredictions' prediction tips cover? <span class="faq-icon">+</span></label>
-            <div class="faq-a"><p>Our daily football prediction tips cover the Premier League, UEFA Champions League, La Liga, Bundesliga, Serie A, Ligue 1 and selected domestic cup competitions. We also publish specialist tips for international fixtures during international windows.</p></div>
+            <label for="fq3" class="faq-q">How is this different from a generic tips site? <span class="faq-icon">+</span></label>
+            <div class="faq-a"><p>Our editorial workflow is slip-first: we ask whether a pick belongs on a jackpot or accumulator before we publish it as a “banker”. Volume markets still exist for research, but the homepage and Jackpot Picks board are built for sheet builders.</p></div>
           </div>
 
           <input type="checkbox" id="fq4" class="faq-ck">
           <div class="faq-item">
-            <label for="fq4" class="faq-q">What are Jackpot Picks? <span class="faq-icon">+</span></label>
-            <div class="faq-a"><p>Jackpot Picks are our three highest-confidence football prediction tips each day, selected after a full statistical review by our senior analysts. Confidence ratings run 85–92%. They work well as standalone single bets or as anchor selections in an accumulator.</p></div>
+            <label for="fq4" class="faq-q">Where can I verify past results? <span class="faq-icon">+</span></label>
+            <div class="faq-a"><p>On our <a href="/track-record">Track Record</a> page. Settled tips are logged after full time — wins and losses — so you can judge the board yourself.</p></div>
           </div>
 
           <input type="checkbox" id="fq5" class="faq-ck">
           <div class="faq-item">
-            <!-- ✅ YMYL: Honest, prominent disclaimer in the FAQ itself -->
-            <label for="fq5" class="faq-q">Are betting tips a guaranteed way to make money? <span class="faq-icon">+</span></label>
-            <div class="faq-a"><p>No — and any service that claims otherwise should be avoided. Football prediction tips are informed, research-backed opinions published for entertainment purposes only. They are <strong>not financial advice</strong> and cannot guarantee profit. Betting carries real financial risk. Always set a fixed budget, stake only amounts you can afford to lose, and use the tools your bookmaker provides — deposit limits, cooling-off periods, and self-exclusion — if you feel your gambling is becoming a problem.</p></div>
+            <label for="fq5" class="faq-q">Can tips guarantee jackpot wins? <span class="faq-icon">+</span></label>
+            <div class="faq-a"><p>No. Multi-leg jackpots are high-variance by design. Our content is entertainment research, not a promise of profit. Stake only what you can afford to lose and use bookmaker safer-gambling tools if you need them.</p></div>
           </div>
 
         </div>
       </div>
 
-      <!-- ✅ E-E-A-T AUTHOR BOX — strengthened with credentials, review process and named team -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
-            <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
-            <span class="eeat-role">Professional Football Analysts · Data-Driven Prediction Methodology · Senior Review Process</span>
-            <p>The AllJackpotPredictions team combines over a decade of hands-on experience in football statistics, betting market analysis and tactical scouting across the Premier League, La Liga, Bundesliga, Serie A, Ligue 1 and European competition. Every football prediction tip goes through a two-stage process: raw data research (form tables, xG models, head-to-head records, confirmed injury lists) followed by editorial review by a senior analyst before publication. We never publish tips based on speculation alone.</p>
+            <div class="eeat-name">AllJackpotPredictions Desk</div>
+            <span class="eeat-role">Jackpot &amp; accumulator research · Multi-market football tips · Public results log</span>
+            <p>We write for bettors who live in jackpot and accumulator culture — East African operator sheets as well as European league boards. Research covers form, xG, injuries and match context; publication prefers fewer high-conviction legs over endless tip lists. Nothing here is automated spam, and nothing is financial advice.</p>
             <div class="eeat-creds">
-              <span>📊 Data-first methodology</span>
-              <span>📋 Published &amp; verified track record</span>
-              <span>🏆 10+ years combined experience</span>
-              <span>🔍 Daily injury &amp; squad monitoring</span>
-              <span>✅ Senior analyst review on every tip</span>
+              <span>🎯 Jackpot-first editorial</span>
+              <span>📋 Public track record</span>
+              <span>🧾 Operator sheet coverage</span>
+              <span>🔍 Daily squad checks</span>
             </div>
-            <a class="eeat-link" href="/about">Meet the analyst team →</a>
+            <a class="eeat-link" href="/about">About the desk →</a>
           </div>
         </div>
       </div>
 
-      <!-- ✅ YMYL / RESPONSIBLE GAMBLING BOX — prominent, detailed, with named third-party resources -->
       <div class="art-col art-full">
         <div class="rg-box">
           <div class="rg-top">
             <span class="rg-icon">🛡</span>
             <div>
               <div class="rg-title">Responsible Gambling — Please Read Before Betting</div>
-              <p class="rg-sub">AllJackpotPredictions is committed to promoting safe, responsible and informed gambling. This content is for entertainment purposes only and is not financial advice.</p>
+              <p class="rg-sub">AllJackpotPredictions publishes entertainment research only. Betting involves real financial risk.</p>
             </div>
           </div>
           <div class="rg-cols">
             <div class="rg-col">
               <h4>⚠ Important Disclaimer</h4>
-              <p>All football prediction tips and betting tips on AllJackpotPredictions are published for <strong>entertainment purposes only</strong>. They do not constitute financial, investment or betting advice. Football betting involves real financial risk. Past performance of any tipster — including AllJackpotPredictions — does <strong>not</strong> guarantee future results.</p>
+              <p>Tips and jackpot ideas on this site are <strong>not</strong> financial, investment or betting advice. Past results do not guarantee future outcomes. Only stake money you can afford to lose.</p>
               <h4>🔞 Age Restriction</h4>
-              <p>Gambling is only permitted for persons aged <strong>18 or over</strong> (or the legal age in your jurisdiction). By accessing AllJackpotPredictions you confirm you meet the legal age requirement for gambling in your country.</p>
+              <p>Gambling is for persons aged <strong>18+</strong> (or the legal age where you live).</p>
             </div>
             <div class="rg-col">
-              <h4>✅ Safer Gambling Practices</h4>
+              <h4>✅ Safer habits</h4>
               <ul>
-                <li>Set a fixed weekly or monthly budget before you start</li>
-                <li>Never bet more than you can comfortably afford to lose</li>
-                <li>Never chase losses by increasing your stake</li>
-                <li>Take regular breaks and keep betting in perspective</li>
-                <li>Use deposit limits, loss limits and cooling-off tools at your bookmaker</li>
-                <li>Treat prediction tips as entertainment — not a source of income</li>
+                <li>Set a budget before you open a slip</li>
+                <li>Never chase a lost jackpot</li>
+                <li>Take breaks; keep betting in perspective</li>
+                <li>Use deposit limits and self-exclusion tools when needed</li>
               </ul>
-              <h4>🆘 Free Help &amp; Support</h4>
+              <h4>🆘 Help</h4>
               <div class="rg-links-grid">
                 <a href="https://www.begambleaware.org" target="_blank" rel="noopener" class="rg-link"><strong>BeGambleAware</strong><span>begambleaware.org</span></a>
                 <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener" class="rg-link"><strong>GamCare</strong><span>gamcare.org.uk</span></a>
                 <a href="https://www.gamstop.co.uk" target="_blank" rel="noopener" class="rg-link"><strong>GamStop</strong><span>gamstop.co.uk</span></a>
-                <a href="https://www.gamblersanonymous.org.uk" target="_blank" rel="noopener" class="rg-link"><strong>Gamblers Anonymous</strong><span>gamblersanonymous.org.uk</span></a>
               </div>
             </div>
           </div>

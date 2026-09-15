@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Half Time Predictions Today — Half-Time Result Tips 1, X & 2 | AllJackpotPredictions</title>
-<meta name="description" content="Free half time predictions for today's matches. Half-time result tips — Home Win, Draw or Away Win at half time — backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily, no login required.">
+<title>Half-Time Result Tips | AllJackpotPredictions</title>
+<meta name="description" content="First-half result tips for specialist slips. Free HT board updated daily. 18+ entertainment only.">
 <meta name="keywords" content="half time predictions today, half time tips, half time result predictions, HT result tips football, half time home win tips, half time draw tips, football half time betting, half time 1x2 tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/half-time-predictions">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/half-time-predictions">
 <meta property="og:title" content="Half Time Predictions Today — Half-Time Result Tips 1, X &amp; 2 | AllJackpotPredictions">
-<meta property="og:description" content="Free half time result predictions today. Home Win, Draw or Away Win at half time — data-driven tips updated daily across all major leagues.">
+<meta property="og:description" content="Half-time result tips — free daily board on AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' half-time predictions?",
+          "name": "Where can I verify AllJackpotPredictions half-time predictions results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' half-time result tips carry a verified 74% win rate this month across all three half-time outcomes. Home Win at half time is our highest-confidence sub-market."
@@ -484,9 +484,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Half Time Predictions Today: How to Use Half-Time Result Betting in Football</h2>
+        <h2 class="art-h2">Half-Time Tips — Specialist Legs, Not Sheet Fillers</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -505,7 +505,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Is a Half-Time Result Bet?</h3>
+        <h3>First-half leans for short slips</h3>
         <p>A half-time result bet predicts the scoreline state at the end of the first 45 minutes — independently of how the match finishes at full time. The three options are: <strong>Home Win (1)</strong> — the home team leads at half time. <strong>Draw (X)</strong> — the scores are level at half time. <strong>Away Win (2)</strong> — the away team leads at half time. AllJackpotPredictions' half-time tips carry a verified 74% win rate this month, with HT Home Win being our highest-confidence sub-market.</p>
 
         <h4>Why Bet on Half-Time Results?</h4>
@@ -610,7 +610,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' half-time predictions? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions half-time predictions results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' half-time result tips carry a verified 74% win rate this month across all three half-time result outcomes. HT Home Win is our highest-confidence sub-market this month. All results are logged and publicly verified on our <a href="/track-record">Track Record page</a>.</p></div>
           </div>
 
@@ -638,7 +638,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · First-Half Data Specialists · Senior Review Process</span>

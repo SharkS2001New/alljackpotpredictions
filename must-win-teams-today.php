@@ -619,9 +619,9 @@ $topTips = array_slice($mwActiveCat === 'all' ? $allFixtures : $fixtures, 0, 3);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Must Win Teams Today: Home Teams, Away Teams &amp; The Most Trusted Sides To Win</h2>
+        <h2 class="art-h2">Must-Win Teams Today — Motivation Edges for Slip Anchors</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -641,7 +641,7 @@ $topTips = array_slice($mwActiveCat === 'all' ? $allFixtures : $fixtures, 0, 3);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Are Must Win Teams Today?</h3>
+        <h3>Motivation edges we trust enough to publish</h3>
         <p><strong>Must win teams today</strong> are football sides identified by our analysts as having an overwhelming combination of competitive incentive, squad quality and contextual pressure to secure all three points. Unlike simple favourites, must win selections are teams where the match situation — title race, relegation fight, European qualification, cup elimination — makes dropping points genuinely unacceptable. Our must win predictions carry an <strong>84% win rate this month</strong>, our strongest category.</p>
 
         <h4>What Makes a Side a True Must Win Team Today?</h4>
@@ -716,7 +716,7 @@ $topTips = array_slice($mwActiveCat === 'all' ? $allFixtures : $fixtures, 0, 3);
 
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Must Win Team Identification Methodology · Senior Review Process</span>

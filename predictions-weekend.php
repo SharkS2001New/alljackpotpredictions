@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Weekend Football Predictions — Saturday &amp; Sunday Tips | AllJackpotPredictions</title>
-<meta name="description" content="Free weekend football predictions covering Saturday and Sunday's matches. 1X2, BTTS, Over 2.5, Correct Score, Double Chance, HT/FT and Accumulator tips across Premier League, La Liga, Bundesliga, Serie A, Ligue 1 and more. Updated weekly — no login required.">
+<title>Weekend Football Tips &amp; Jackpot Planning | AllJackpotPredictions</title>
+<meta name="description" content="Weekend tips board for Saturday/Sunday slips and jackpot planning. Free multi-market coverage.">
 <meta name="keywords" content="weekend football predictions, football tips this weekend, saturday football predictions, sunday football tips, weekend betting tips football, premier league weekend predictions, football predictions saturday, football predictions sunday, weekend accumulator tips, weekend football betting">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/predictions-weekend">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/predictions-weekend">
 <meta property="og:title" content="Weekend Football Predictions — Saturday &amp; Sunday Tips | AllJackpotPredictions">
-<meta property="og:description" content="Free weekend football predictions for Saturday and Sunday — 1X2, BTTS, Over 2.5, Double Chance, HT/FT, Accumulators and more across all major leagues.">
+<meta property="og:description" content="Weekend tips for jackpot and acca planning — AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">

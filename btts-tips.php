@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>BTTS Tips Today — Both Teams to Score Predictions | AllJackpotPredictions</title>
-<meta name="description" content="Free BTTS tips for today's matches. Both teams to score predictions backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily — no login required.">
+<title>BTTS Tips for Accas &amp; Goals Legs | AllJackpotPredictions</title>
+<meta name="description" content="Both Teams to Score tips for accumulator and jackpot supporting legs. Free GG/NG lean board updated daily. Entertainment only — 18+.">
 <meta name="keywords" content="btts tips today, both teams to score predictions, btts football tips, btts betting tips, both teams score today, gg tips today, btts premier league, btts champions league">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/btts-tips">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/btts-tips">
 <meta property="og:title" content="BTTS Tips Today — Both Teams to Score Predictions | AllJackpotPredictions">
-<meta property="og:description" content="Free both teams to score tips today. BTTS predictions backed by data — updated daily across all major leagues.">
+<meta property="og:description" content="BTTS Yes/No ideas for multi-leg slips — free daily board from AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' BTTS tips?",
+          "name": "Where can I verify AllJackpotPredictions BTTS tips results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' BTTS tips carry a verified 72% win rate this month. Every result is logged and published on our track record page after the final whistle."
@@ -463,9 +463,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">BTTS Tips Today: How We Pick Both Teams to Score Predictions</h2>
+        <h2 class="art-h2">BTTS Tips as Supporting Legs on Jackpot and Acca Sheets</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -484,10 +484,10 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Is a BTTS Tip?</h3>
-        <p>A BTTS tip (Both Teams To Score) predicts whether or not both teams will score at least one goal during the 90 minutes. <strong>BTTS Yes</strong> wins if both sides find the net. <strong>BTTS No</strong> wins if either team is kept scoreless. It is one of the most consistent and popular football betting markets — and at AllJackpotPredictions, our BTTS tips carry a verified 72% win rate this month.</p>
+        <h3>Goals legs that earn a place on the slip</h3>
+        <p><strong>BTTS Yes</strong> needs both teams on the scoresheet; <strong>BTTS No</strong> needs at least one blank. On AllJackpotPredictions we treat BTTS mainly as a <em>supporting</em> jackpot/acca leg — useful when attacks are live — not as an automatic 13-fold filler. If a fixture is better as a clean-sheet 1X2 banker, we say so instead of forcing GG.</p>
 
-        <h4>What Our Analysts Look For in Every BTTS Tip</h4>
+        <h4>Signals we weight before publishing GG / NG</h4>
         <ul>
           <li><strong>Scoring streaks</strong> — How many consecutive matches has each team scored in?</li>
           <li><strong>Clean sheet rates</strong> — How often does each team keep a clean sheet at home and away?</li>
@@ -502,7 +502,7 @@ $topTipsCount = count($topTips);
       </div>
 
       <div class="art-col">
-        <h3>BTTS Yes vs BTTS No — When to Back Each</h3>
+        <h3>When GG helps a jackpot — and when it hurts</h3>
 
         <p><strong>Back BTTS Yes</strong> when both teams have scored in their last 5+ consecutive matches, the head-to-head record shows consistent goal exchanges, neither side keeps clean sheets regularly, and the fixture carries attacking intent from both sides — such as two teams chasing UCL spots or a relegation battle where caution goes out the window.</p>
 
@@ -530,7 +530,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' BTTS tips today? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions BTTS tips today results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' BTTS tips carry a verified 72% win rate this month. Every result is logged and published on our <a href="/track-record">Track Record page</a> after the final whistle — full transparency, no cherry-picking.</p></div>
           </div>
 
@@ -558,7 +558,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Data-Driven BTTS Prediction Methodology · Senior Review Process</span>

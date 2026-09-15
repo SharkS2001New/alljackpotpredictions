@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Over 3.5 Goals Tips Today — 4+ Goals Predictions | AllJackpotPredictions</title>
-<meta name="description" content="Free over 3.5 goals tips for today's matches. Four or more goals predictions backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily — no login required.">
+<title>Over 3.5 Goals Tips — High-Event Fixtures | AllJackpotPredictions</title>
+<meta name="description" content="Over 3.5 goals tips for high-tempo fixtures. Use sparingly on jackpot sheets — free daily board. 18+ entertainment only.">
 <meta name="keywords" content="over 3.5 goals tips today, over 3.5 predictions, 4+ goals tips, over 3.5 football betting, over 3.5 goals predictions today, high scoring football tips, over 3.5 premier league tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/over-3-5-goals">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-3-5-goals">
 <meta property="og:title" content="Over 3.5 Goals Tips Today — 4+ Goals Predictions | AllJackpotPredictions">
-<meta property="og:description" content="Free over 3.5 goals tips today. Data-backed 4+ goals predictions across all major leagues — updated daily, no login needed.">
+<meta property="og:description" content="High-event over 3.5 tips — free board from AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' over 3.5 goals tips?",
+          "name": "Where can I verify AllJackpotPredictions over 3.5 goals tips results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' over 3.5 goals tips carry a verified 61% win rate this month. This market has a lower base rate than over 1.5 or 2.5, so we publish fewer tips and only when the fixture data strongly supports it."
@@ -440,9 +440,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Over 3.5 Goals Tips Today: Finding the Best 4+ Goals Predictions</h2>
+        <h2 class="art-h2">Over 3.5 Goals Tips — High-Event Spice, Not Default Bankers</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -461,7 +461,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Does Over 3.5 Goals Mean?</h3>
+        <h3>High-event totals — optional spice only</h3>
         <p>An over 3.5 goals bet wins if four or more goals are scored across 90 minutes including injury time. A 3-0, 2-1 or any scoreline totalling three goals or fewer loses. Any scoreline of 2-2, 3-1, 4-0, 3-2 or higher wins. It is the highest-odds standard goals market — typically 2.20–3.60 — which reflects its lower base rate of around 28–38% depending on the league.</p>
 
         <p>At AllJackpotPredictions we publish over 3.5 tips sparingly — only when both teams' data clearly supports four or more goals. Our verified win rate of 61% this month reflects a conservative, high-quality selection process. We would rather publish fewer, stronger tips than pad the page with low-confidence selections.</p>
@@ -569,7 +569,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' over 3.5 goals tips? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions over 3.5 goals tips results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' over 3.5 goals tips carry a verified 61% win rate this month. We publish fewer over 3.5 tips than other markets — only when the data strongly supports it. Every result is logged and published on our <a href="/track-record">Track Record page</a>.</p></div>
           </div>
 
@@ -597,7 +597,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Data-Driven Goals Market Methodology · Senior Review Process</span>

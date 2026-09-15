@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HT/FT Predictions Today — Half Time Full Time Tips | AllJackpotPredictions</title>
-<meta name="description" content="Free HT/FT predictions for today's matches. Half time full time tips backed by data — Home/Home, Draw/Home, Away/Away and all combinations across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily, no login required.">
+<title>HT/FT Tips — Specialist Legs Only | AllJackpotPredictions</title>
+<meta name="description" content="Half-time/full-time tips for specialist accumulator legs — not default jackpot fillers. Free board, entertainment only.">
 <meta name="keywords" content="ht ft predictions today, half time full time tips, ht ft betting tips, half time full time football predictions, 1/1 ht ft tips, 2/2 ht ft tips, x/1 ht ft tips, half time full time premier league, ht ft correct predictions">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/ht-ft-predictions">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/ht-ft-predictions">
 <meta property="og:title" content="HT/FT Predictions Today — Half Time Full Time Tips | AllJackpotPredictions">
-<meta property="og:description" content="Free HT/FT predictions today. Half time full time tips — all 9 combinations — backed by data across all major leagues. Updated daily.">
+<meta property="og:description" content="HT/FT tips with a jackpot-aware warning: specialist use only.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' HT/FT predictions?",
+          "name": "Where can I verify AllJackpotPredictions HT/FT predictions results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' HT/FT tips carry a verified 61% win rate this month. Given the higher difficulty of correctly predicting two independent match periods, this is a strong strike rate."
@@ -462,9 +462,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">HT/FT Predictions Today: How to Win at Half Time Full Time Betting</h2>
+        <h2 class="art-h2">HT/FT Tips for Specialist Accas — Use Sparingly on Jackpots</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -483,7 +483,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Is HT/FT Betting?</h3>
+        <h3>Half-time/full-time is a specialist market</h3>
         <p>HT/FT (Half Time / Full Time) betting requires you to correctly predict two things simultaneously: the result at the 45-minute mark <em>and</em> the result at 90 minutes. There are nine possible combinations — <strong>1/1, 1/X, 1/2, X/1, X/X, X/2, 2/1, 2/X and 2/2</strong>. Because you must be right twice, the odds are significantly higher than any single match result market. AllJackpotPredictions' HT/FT tips carry a verified 61% win rate this month — strong for a market that requires two correct predictions.</p>
 
         <h4>The Nine HT/FT Combinations Explained</h4>
@@ -599,7 +599,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' HT/FT predictions? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions HT/FT predictions results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' HT/FT tips carry a verified 61% win rate this month. Given the difficulty of the market — two correct predictions required simultaneously — this is a strong and consistent strike rate. We focus almost exclusively on 1/1, X/1 and X/X combinations where the statistical frequency and data support is strongest. All results are verified on our <a href="/track-record">Track Record page</a>.</p></div>
           </div>
 
@@ -627,7 +627,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · HT/FT Combination Specialists · Senior Review Process</span>

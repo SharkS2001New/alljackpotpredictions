@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Correct Score Predictions Today — Exact Score Tips | AllJackpotPredictions</title>
-<meta name="description" content="Free correct score predictions for today's matches. Exact scoreline tips backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily — no login required.">
+<title>Correct Score Tips — Long Shots, Not Bankers | AllJackpotPredictions</title>
+<meta name="description" content="Correct score ideas for spice legs only — never as jackpot bankers. Free board, entertainment only.">
 <meta name="keywords" content="correct score predictions today, correct score tips, exact score predictions, correct score football betting, correct score premier league, correct score champions league, scoreline predictions today">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/correct-score-predictions">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/correct-score-predictions">
 <meta property="og:title" content="Correct Score Predictions Today — Exact Score Tips | AllJackpotPredictions">
-<meta property="og:description" content="Free correct score predictions today. Exact scoreline tips backed by data — updated daily across all major leagues.">
+<meta property="og:description" content="Correct score tips for long-shot spice — not jackpot anchors.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' correct score predictions?",
+          "name": "Where can I verify AllJackpotPredictions correct score predictions results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' correct score predictions carry a verified 22% win rate this month. While lower than our other markets by percentage, the high odds — typically 6.00 to 15.00 — mean a single correct prediction delivers strong returns. We publish only correct score tips per day, selecting only when the data strongly points to a specific scoreline."
@@ -466,9 +466,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Correct Score Predictions Today: How We Find the Most Likely Exact Scorelines</h2>
+        <h2 class="art-h2">Correct Score Tips Are Long Shots — Never Jackpot Bankers</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -487,7 +487,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Is a Correct Score Prediction?</h3>
+        <h3>Exact scores are lottery tickets — treat them that way</h3>
         <p>A correct score prediction is a bet on the exact final scoreline of a match at 90 minutes — for example, Arsenal 2-0 Real Madrid. The bet only wins if the final score matches exactly. This makes correct score betting the most precise — and highest-value — market in football, with typical odds of 6.00 to 20.00+. AllJackpotPredictions publishes 6 correct score tips per day, only when the xG and H2H data point clearly to a specific scoreline.</p>
 
         <h4>Our Correct Score Analysis Framework</h4>
@@ -620,7 +620,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' correct score predictions? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions correct score predictions results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' correct score predictions carry a verified 22% win rate this month. We publish only 6 tips per day — only when xG models and H2H data strongly support a specific scoreline. The high individual odds (6.00–15.00) mean that even a 22% hit rate generates strong positive returns over time. Every result is logged on our <a href="/track-record">Track Record page</a>.</p></div>
           </div>
 
@@ -648,7 +648,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · xG Modelling · Correct Score Methodology · Senior Review Process</span>

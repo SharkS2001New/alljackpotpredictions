@@ -15,7 +15,7 @@ if (!defined('LL_DATA_DIR')) {
           </span>
         </a>
         <p class="ajp-ft-lede">
-          Free football tips and jackpot accumulators — form, xG and match context, updated daily. No login. No paywall.
+          Jackpot sheets, banker shortlists and free multi-market tips — built for SportPesa, Betika and everyday accas. Entertainment only.
         </p>
         <div class="ajp-ft-pills">
           <span>Free tips</span>

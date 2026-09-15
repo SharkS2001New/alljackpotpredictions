@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Under 3.5 Goals Tips Today — 3 Goals or Fewer Predictions | AllJackpotPredictions</title>
-<meta name="description" content="Free under 3.5 goals tips for today's matches. Three goals or fewer predictions backed by data across Premier League, Champions League, La Liga, Serie A and more. Updated daily — no login required.">
+<title>Under 3.5 Goals Tips — Goals Buffer Legs | AllJackpotPredictions</title>
+<meta name="description" content="Under 3.5 goals tips when you want a goals buffer on multi-leg slips. Free daily board. Entertainment only.">
 <meta name="keywords" content="under 3.5 goals tips today, under 3.5 predictions, under 3.5 football betting, under 3.5 goals predictions today, three goals or fewer tips, under 3.5 premier league, under 3.5 serie a tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/under-3-5-goals">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/under-3-5-goals">
 <meta property="og:title" content="Under 3.5 Goals Tips Today — 3 Goals or Fewer Predictions | AllJackpotPredictions">
-<meta property="og:description" content="Free under 3.5 goals tips today. Three or fewer goals predictions backed by data — updated daily across all major leagues.">
+<meta property="og:description" content="Under 3.5 tips for multi-leg builders — AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -392,9 +392,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Under 3.5 Goals Tips Today: The Balanced Goals Market Explained</h2>
+        <h2 class="art-h2">Under 3.5 Goals Tips — Buffer Legs for Multi-Leg Slips</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -413,7 +413,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Does Under 3.5 Goals Mean?</h3>
+        <h3>Goals buffer legs for longer sheets</h3>
         <p>An under 3.5 goals bet wins if three goals or fewer are scored across 90 minutes. A 0-0, 1-0, 1-1, 2-0, 2-1 or 3-0 result all win. Any scoreline of four or more goals combined — 2-2, 3-1, 4-0 — loses. It sits between the safer under 2.5 market and the even more conservative under 4.5, offering a strong balance of hit rate and odds value. Our under 3.5 tips carry a verified 70% win rate this month across the five tips published today.</p>
 
         <h4>What Our Analysts Look For</h4>
@@ -511,7 +511,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' under 3.5 goals tips? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions under 3.5 goals tips results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' under 3.5 goals tips carry a verified 70% win rate this month. We apply strict criteria — only publishing when both H2H evidence and fixture data strongly support 3 goals or fewer. Every result is logged on our <a href="/track-record">Track Record page</a>.</p></div>
           </div>
 
@@ -539,7 +539,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Data-Driven Goals Market Methodology · Senior Review Process</span>

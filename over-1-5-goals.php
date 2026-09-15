@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Over 1.5 Goals Tips Today — 2+ Goals Predictions | AllJackpotPredictions</title>
-<meta name="description" content="Free over 1.5 goals tips for today's matches. Two or more goals predictions backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily — no login required.">
+<title>Over 1.5 Goals Tips — Safer Totals Legs | AllJackpotPredictions</title>
+<meta name="description" content="Over 1.5 goals tips for safer accumulator legs and jackpot padding. Free board, updated daily. Entertainment only.">
 <meta name="keywords" content="over 1.5 goals tips today, over 1.5 predictions, 2+ goals tips, over 1.5 football betting, over 1.5 goals predictions today, safe goal tips, over 1.5 premier league tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/over-1-5-goals">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-1-5-goals">
 <meta property="og:title" content="Over 1.5 Goals Tips Today — 2+ Goals Predictions | AllJackpotPredictions">
-<meta property="og:description" content="Free over 1.5 goals tips today. Data-backed 2+ goals predictions across all major leagues — updated daily, no login needed.">
+<meta property="og:description" content="Safer over 1.5 totals for multi-leg slips — AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' over 1.5 goals tips?",
+          "name": "Where can I verify AllJackpotPredictions over 1.5 goals tips results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' over 1.5 goals tips carry a verified 83% win rate this month — our highest across all goals markets. Every result is logged and published on our track record page after the final whistle."
@@ -438,9 +438,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Over 1.5 Goals Tips Today: The Safest Goals Market Explained</h2>
+        <h2 class="art-h2">Over 1.5 Goals Tips for Safer Supporting Legs</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -459,7 +459,7 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Does Over 1.5 Goals Mean?</h3>
+        <h3>Safer totals for multi-leg builders</h3>
         <p>An over 1.5 goals bet wins if two or more goals are scored across 90 minutes. A 0-0 or 1-0 result in either direction loses. Any scoreline with two goals or more — 1-1, 2-0, 2-1, 3-0 and so on — wins. It is the safest goals market in football betting, hitting in approximately 78–83% of top-flight European matches. Our over 1.5 tips carry a verified 83% win rate this month — our highest of all goals markets.</p>
 
         <h4>What Makes a Strong Over 1.5 Tip</h4>
@@ -565,7 +565,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' over 1.5 goals tips? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions over 1.5 goals tips results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' over 1.5 goals tips carry a verified 83% win rate this month — the highest of all our goals markets. Every result is logged and published on our <a href="/track-record">Track Record page</a> after the final whistle.</p></div>
           </div>
 
@@ -593,7 +593,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Data-Driven Goals Market Methodology · Senior Review Process</span>

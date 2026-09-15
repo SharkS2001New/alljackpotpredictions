@@ -19,15 +19,15 @@ $totalCatalog = count($allSlugs);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions</title>
-<meta name="description" content="Jackpot Picks Today — AllJackpotPredictions' elite banker tips of the day. Hand-selected by our senior analyst team, these are the highest-confidence football predictions we publish. Updated daily across Premier League, Champions League, La Liga, Bundesliga, Serie A and more. No login required.">
+<title>Jackpot Picks Today — Banker Shortlist | AllJackpotPredictions</title>
+<meta name="description" content="Today's Jackpot Picks shortlist from AllJackpotPredictions — high-conviction bankers for singles and multi-leg anchors. Free to browse.">
 <meta name="keywords" content="oracle picks today, banker tips of the day, banker bet today, best football tips today, highest confidence predictions, sure banker tips, football banker picks, elite football tips today">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/jackpot-picks-today">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/jackpot-picks-today">
 <meta property="og:title" content="Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions">
-<meta property="og:description" content="Jackpot Picks Today — our elite banker tips of the day. The highest-confidence football predictions we publish, hand-selected by our senior analyst team. Updated daily.">
+<meta property="og:description" content="Banker shortlist for today's slips — Jackpot Picks on AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
@@ -77,7 +77,7 @@ $totalCatalog = count($allSlugs);
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' Jackpot Picks Today?",
+          "name": "Where can I verify AllJackpotPredictions Jackpot Picks Today results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' Jackpot Picks carry an 87% win rate over the past 30 days — our highest-performing category. Every result is logged and published on our Track Record page."
@@ -343,9 +343,9 @@ $totalCatalog = count($allSlugs);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Senior Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Jackpot Picks Today: What Are Banker Tips Of The Day &amp; How Do We Choose Them?</h2>
+        <h2 class="art-h2">Jackpot Picks Today — Our Banker Shortlist for Slips and Sheets</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Senior Analyst Team</span>
           <span class="art-sep">·</span>
@@ -416,7 +416,7 @@ $totalCatalog = count($allSlugs);
           </div>
           <input type="checkbox" id="fq3" class="faq-ck">
           <div class="faq-item">
-            <label for="fq3" class="faq-q">How accurate are AllJackpotPredictions' Jackpot Picks Today? <span class="faq-icon">+</span></label>
+            <label for="fq3" class="faq-q">Where can I verify AllJackpotPredictions Jackpot Picks Today results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' Jackpot Picks carry an 87% win rate over the past 30 days — our highest-performing category. Every result is logged and published on our Track Record page after the final whistle. Jackpot Picks are strictly limited to 3–5 per day to protect the integrity of the selection process.</p></div>
           </div>
           <input type="checkbox" id="fq4" class="faq-ck">

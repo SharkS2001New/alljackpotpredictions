@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Football Predictions Today — Free Tips &amp; Jackpot Picks | AllJackpotPredictions</title>
-<meta name="description" content="Free football predictions for today's matches across all markets — 1X2, BTTS, Over 2.5, Correct Score, Double Chance, HT/FT, Accumulators and more. Updated daily across Premier League, Champions League, La Liga, Bundesliga, Serie A and Ligue 1.">
+<title>Today's Football Board — Free Multi-Market Tips | AllJackpotPredictions</title>
+<meta name="description" content="Today's full football tips board from AllJackpotPredictions — scan markets, then build jackpot and accumulator slips. Free, updated daily.">
 <meta name="keywords" content="football predictions today, free football tips today, football betting tips, today's football predictions, 1x2 tips today, btts tips today, over 2.5 tips today, accumulator tips today, premier league predictions today, champions league tips today">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/predictions-today">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/predictions-today">
 <meta property="og:title" content="Football Predictions Today — Free Tips Across All Markets | AllJackpotPredictions">
-<meta property="og:description" content="Free football predictions today across all markets — updated daily.">
+<meta property="og:description" content="Today's multi-market tips board for slip builders — AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">

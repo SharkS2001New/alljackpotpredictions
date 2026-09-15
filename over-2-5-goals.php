@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Over 2.5 Goals Tips Today — 3+ Goals Predictions | AllJackpotPredictions</title>
-<meta name="description" content="Free over 2.5 goals tips for today's matches. Three or more goals predictions backed by data across Premier League, Champions League, La Liga, Bundesliga and more. Updated daily — no login required.">
+<title>Over 2.5 Goals Tips for Multi-Leg Slips | AllJackpotPredictions</title>
+<meta name="description" content="Over 2.5 goals selections for accumulators and jackpot sheets. Free totals board with jackpot-aware filtering. 18+ entertainment only.">
 <meta name="keywords" content="over 2.5 goals tips today, over 2.5 predictions, 3+ goals tips, over 2.5 football betting, over 2.5 premier league, over 2.5 goals predictions today, goals over 2.5 tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/over-2-5-goals">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-2-5-goals">
 <meta property="og:title" content="Over 2.5 Goals Tips Today — 3+ Goals Predictions | AllJackpotPredictions">
-<meta property="og:description" content="Free over 2.5 goals tips today. Data-backed 3+ goals predictions across all major leagues — updated daily, no login needed.">
+<meta property="og:description" content="Over 2.5 tips aimed at slip builders — free daily goals board on AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
         },
         {
           "@type": "Question",
-          "name": "How accurate are AllJackpotPredictions' over 2.5 goals tips?",
+          "name": "Where can I verify AllJackpotPredictions over 2.5 goals tips results?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AllJackpotPredictions' over 2.5 goals tips carry a verified 68% win rate this month. Every result is logged and published on our track record page after the final whistle."
@@ -438,9 +438,9 @@ $topTipsCount = count($topTips);
       <div class="art-header-inner">
         <div class="art-kicker">
           <div class="art-kicker-line"></div>
-          <span class="art-kicker-text">Expert Guide · AllJackpotPredictions Analyst Team</span>
+          <span class="art-kicker-text">Editorial · AllJackpotPredictions Desk</span>
         </div>
-        <h2 class="art-h2">Over 2.5 Goals Tips Today: How We Find High-Scoring Matches</h2>
+        <h2 class="art-h2">Over 2.5 Goals Tips for Multi-Leg Slips — Tempo First</h2>
         <div class="art-meta">
           <span>AllJackpotPredictions Analyst Team</span>
           <span class="art-sep">·</span>
@@ -459,10 +459,10 @@ $topTipsCount = count($topTips);
 
     <div class="art-body">
       <div class="art-col">
-        <h3>What Does Over 2.5 Goals Mean?</h3>
-        <p>An over 2.5 goals bet wins if three or more goals are scored in a match across 90 minutes (plus any added time — but not extra time or penalties). A 1-1 or 2-0 result loses. A 2-1, 3-0 or 3-2 all win. It is one of the most popular football betting markets due to its clear, simple outcome and competitive odds — typically 1.40–2.10 depending on the fixture. AllJackpotPredictions' over 2.5 tips carry a verified 68% win rate this month.</p>
+        <h3>Totals legs with jackpot discipline</h3>
+        <p>Over 2.5 needs three or more goals in 90 minutes (plus stoppage — not extra time). We publish overs when tempo, xG and motivation agree — and we skip “pretty” fixtures that look open but play low-block. On long jackpot sheets, over 2.5 is a supporting leg, not a default banker.</p>
 
-        <h4>What Our Analysts Look For</h4>
+        <h4>What must line up before we publish an over</h4>
         <ul>
           <li><strong>Average goals per game</strong> — Both teams should average over 1.4 goals per match</li>
           <li><strong>Clean sheet rates</strong> — Teams that rarely keep clean sheets are prime over 2.5 candidates</li>
@@ -477,7 +477,7 @@ $topTipsCount = count($topTips);
       </div>
 
       <div class="art-col">
-        <h3>Over 2.5 Goals vs Related Markets</h3>
+        <h3>Over 1.5 vs 2.5 vs 3.5 on an AJP slip</h3>
 
         <p><strong>Over 1.5 goals</strong> wins with just two goals — a safer market that hits in about 80% of top-flight European matches. Lower odds but much higher strike rate. Ideal for accumulators where you need reliability over value.</p>
 
@@ -507,7 +507,7 @@ $topTipsCount = count($topTips);
 
           <input type="checkbox" id="fq2" class="faq-ck">
           <div class="faq-item">
-            <label for="fq2" class="faq-q">How accurate are AllJackpotPredictions' over 2.5 goals tips? <span class="faq-icon">+</span></label>
+            <label for="fq2" class="faq-q">Where can I verify AllJackpotPredictions over 2.5 goals tips results? <span class="faq-icon">+</span></label>
             <div class="faq-a"><p>AllJackpotPredictions' over 2.5 goals tips carry a verified 68% win rate this month. Every result is logged and published on our <a href="/track-record">Track Record page</a> after every match — full transparency, no cherry-picking.</p></div>
           </div>
 
@@ -535,7 +535,7 @@ $topTipsCount = count($topTips);
       <!-- E-E-A-T -->
       <div class="art-col art-full">
         <div class="eeat-box">
-          <div class="eeat-av">TO</div>
+          <div class="eeat-av">AJ</div>
           <div class="eeat-body">
             <div class="eeat-name">AllJackpotPredictions Analyst Team</div>
             <span class="eeat-role">Professional Football Analysts · Data-Driven Goals Market Methodology · Senior Review Process</span>
