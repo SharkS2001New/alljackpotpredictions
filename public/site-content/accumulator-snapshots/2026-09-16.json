@@ -1,0 +1,206 @@
+{
+    "date": "2026-09-16",
+    "updated_at": "2026-09-15T21:26:19+00:00",
+    "accumulators": [
+        {
+            "name": "3-Fold Acca",
+            "legs": 3,
+            "combined_odds": 2.26,
+            "blended_confidence": 74,
+            "picks": [
+                {
+                    "home": "Olympiakos Piraeus",
+                    "away": "Jagiellonia",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.36",
+                    "confidence": 78,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636309
+                },
+                {
+                    "home": "Sturm Graz",
+                    "away": "Rennes",
+                    "pick": "Double Chance X2",
+                    "pick_code": "X2",
+                    "market": "double_chance",
+                    "odds": "1.30",
+                    "confidence": 74,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636341
+                },
+                {
+                    "home": "Bayer Leverkusen",
+                    "away": "Celje",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.28",
+                    "confidence": 71,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636225
+                }
+            ]
+        },
+        {
+            "name": "5-Fold Acca",
+            "legs": 5,
+            "combined_odds": 13,
+            "blended_confidence": 67,
+            "picks": [
+                {
+                    "home": "Atletico Madrid",
+                    "away": "Osasuna",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.49",
+                    "confidence": 67,
+                    "league": "La Liga",
+                    "fixture_id": 1570384
+                },
+                {
+                    "home": "Hapoel Beer Sheva",
+                    "away": "Dinamo Zagreb",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.65",
+                    "confidence": 67,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636265
+                },
+                {
+                    "home": "AC Milan",
+                    "away": "Benfica",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.70",
+                    "confidence": 67,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636207
+                },
+                {
+                    "home": "Sunderland",
+                    "away": "AZ Alkmaar",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.70",
+                    "confidence": 67,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636344
+                },
+                {
+                    "home": "Omonia Nicosia",
+                    "away": "Celta Vigo",
+                    "pick": "Under 2.5 Goals",
+                    "pick_code": "U2.5",
+                    "market": "over_under",
+                    "odds": "1.83",
+                    "confidence": 66,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636312
+                }
+            ]
+        },
+        {
+            "name": "8-Fold Acca",
+            "legs": 8,
+            "combined_odds": 46.58,
+            "blended_confidence": 69,
+            "picks": [
+                {
+                    "home": "Ararat-Armenia",
+                    "away": "Sparta Praha",
+                    "pick": "Away Win",
+                    "pick_code": "2",
+                    "market": "1x2",
+                    "odds": "1.62",
+                    "confidence": 65,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636217
+                },
+                {
+                    "home": "Anderlecht",
+                    "away": "Lyon",
+                    "pick": "BTTS Yes",
+                    "pick_code": "BTTS_YES",
+                    "market": "btts",
+                    "odds": "1.57",
+                    "confidence": 60,
+                    "league": "UEFA Europa League",
+                    "fixture_id": 1636212
+                },
+                {
+                    "home": "Levante",
+                    "away": "Athletic Club",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.90",
+                    "confidence": 59,
+                    "league": "La Liga",
+                    "fixture_id": 1570389
+                },
+                {
+                    "home": "Deportivo La Coruna",
+                    "away": "Sevilla",
+                    "pick": "Double Chance 1X",
+                    "pick_code": "1X",
+                    "market": "double_chance",
+                    "odds": "1.38",
+                    "confidence": 58,
+                    "league": "La Liga",
+                    "fixture_id": 1570387
+                },
+                {
+                    "home": "FC Seoul",
+                    "away": "Persib Bandung",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.55",
+                    "confidence": 80,
+                    "league": "AFC Champions League Two",
+                    "fixture_id": 1637491
+                },
+                {
+                    "home": "Port FC",
+                    "away": "Vissel Kobe",
+                    "pick": "Away Win",
+                    "pick_code": "2",
+                    "market": "1x2",
+                    "odds": "1.75",
+                    "confidence": 80,
+                    "league": "AFC Champions League Elite",
+                    "fixture_id": 1629926
+                },
+                {
+                    "home": "Al-Rayyan SC",
+                    "away": "Al Faisaly",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.57",
+                    "confidence": 69,
+                    "league": "AFC Champions League Two",
+                    "fixture_id": 1630352
+                },
+                {
+                    "home": "Puebla",
+                    "away": "Toluca",
+                    "pick": "Away Win",
+                    "pick_code": "2",
+                    "market": "1x2",
+                    "odds": "1.64",
+                    "confidence": 77,
+                    "league": "Liga MX",
+                    "fixture_id": 1550948
+                }
+            ]
+        }
+    ]
+}
