@@ -122,7 +122,7 @@
 
 .abt-hero-inner {
   max-width: 1280px; margin: 0 auto; padding: 0 32px;
-  display: grid; grid-template-columns: 1fr 380px; gap: 52px; align-items: start;
+  display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 52px; align-items: start;
 }
 
 /* kicker */
@@ -154,7 +154,7 @@
 [data-theme="dark"] .abt-h1-solid { color: var(--ink); }
 .abt-h1-outline {
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  font-size: clamp(4rem, 9vw, 8.5rem);
+  font-size: clamp(2.4rem, 5.5vw, 4.25rem);
   font-weight: 700;
   font-style: italic;
   line-height: 1.05;
@@ -162,6 +162,12 @@
   color: transparent;
   -webkit-text-stroke: 2px var(--pink);
   text-stroke: 2px var(--pink);
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.abt-h1-outline .abt-h1-line {
   display: block;
 }
 [data-theme="dark"] .abt-h1-outline { -webkit-text-stroke-color: var(--pink); }
@@ -465,7 +471,7 @@
 @media(max-width:700px) {
   .abt-hero-inner { padding: 0 16px; }
   .abt-h1-solid   { font-size: 2.6rem; }
-  .abt-h1-outline { font-size: 3.6rem; }
+  .abt-h1-outline { font-size: 2.1rem; -webkit-text-stroke-width: 1.5px; }
   .abt-team { grid-template-columns: 1fr; }
   .abt-stats { grid-template-columns: 1fr; }
   .abt-stat-row { grid-template-columns: 1fr 1fr; }
@@ -495,7 +501,10 @@
 
       <h1 class="abt-h1">
         <span class="abt-h1-solid">ABOUT</span>
-        <span class="abt-h1-outline">AllJackpotPredictions</span>
+        <span class="abt-h1-outline" aria-label="AllJackpotPredictions">
+          <span class="abt-h1-line">AllJackpot</span>
+          <span class="abt-h1-line">Predictions</span>
+        </span>
       </h1>
 
       <p class="abt-hero-body">
