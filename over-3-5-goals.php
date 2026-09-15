@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Over 3.5 Goals Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free over 3.5 goals predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Over 3.5 goals tips for high-tempo fixtures — spice legs, not default jackpot bankers. AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/over-3-5-goals#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Over 3.5 Goals Tips", "item": "https://www.alljackpotpredictions.com/over-3-5-goals"}
       ]
     },
@@ -205,14 +205,13 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Over 3.5<br>
           Goals<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> over 3.5 goals tips today — 4+ goals predictions in today's biggest fixtures</span>
+          <span class="h1-accent">Spice Legs</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> over 3.5 tips today — high-event totals; use sparingly on long jackpot sheets</span>
         </h1>
         <p class="hero-desc">
-          <strong>High-value tips for high-scoring matches.</strong> Over 3.5 goals offers the best odds
-          in the goals market — we only publish when the data firmly supports 4+ goals.
-          Every tip is built from xG models, goals averages, H2H history and tactical
-          context across the Premier League, Bundesliga, La Liga and more.
+          <strong>Higher price, higher variance — treat as spice.</strong> AllJackpotPredictions only lists over 3.5
+          when tempo and chance creation look extreme. Fine for short accas; rarely a jackpot banker.
+          Free board, updated daily. 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Over 3.5 Tips</a>
@@ -258,7 +257,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Over 3.5 Goals Tips</span>
   </div>

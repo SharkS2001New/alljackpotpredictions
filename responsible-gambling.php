@@ -795,7 +795,7 @@
     <div class="rg-top">
       <span class="rg-icon">🛡</span>
       <div>
-        <div class="rg-title">Football Prediction Tips Are Entertainment — Not Financial Advice</div>
+        <div class="rg-title">Tips Are Entertainment — Not Financial Advice</div>
         <p class="rg-sub">All tips on AllJackpotPredictions are for entertainment purposes only. 18+ only. Please gamble responsibly.</p>
       </div>
     </div>

@@ -554,7 +554,7 @@ function getLeagueClass($leagueName) {
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Track Record</span>
   </div>

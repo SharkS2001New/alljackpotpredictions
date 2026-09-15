@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Over 2.5 Goals Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free over 2.5 goals predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Over 2.5 goals tips for accumulators and selective jackpot padding. Free daily board — AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/over-2-5-goals#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Over 2.5 Goals Tips", "item": "https://www.alljackpotpredictions.com/over-2-5-goals"}
       ]
     },
@@ -205,13 +205,13 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Over 2.5<br>
           Goals<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> over 2.5 goals tips today — 3+ goals predictions across all major leagues</span>
+          <span class="h1-accent">Slip Ideas</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> over 2.5 tips today — 3+ goal leans for accas and careful jackpot padding</span>
         </h1>
         <p class="hero-desc">
-          <strong>High-scoring matches, backed by data.</strong> Every over 2.5 goals tip is built from average goals scored,
-          defensive records, head-to-head history and xG models — analysed daily across the
-          Premier League, Champions League, La Liga, Bundesliga, Serie A and more.
+          <strong>Totals with a slip role attached.</strong> We publish over 2.5 where open games look likely —
+          useful on shorter accumulators, selective on long jackpot coupons. Free AllJackpotPredictions board,
+          updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Over 2.5 Tips</a>
@@ -256,7 +256,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Over 2.5 Goals Tips</span>
   </div>

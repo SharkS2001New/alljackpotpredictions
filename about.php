@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>About AllJackpotPredictions — The Team Behind Our Football Prediction Tips</title>
-<meta name="description" content="Meet the AllJackpotPredictions analyst team. Learn our mission, editorial standards and the story behind our data-driven football prediction tips service.">
+<title>About AllJackpotPredictions — Jackpot Desk &amp; Analyst Team</title>
+<meta name="description" content="Meet the AllJackpotPredictions desk — James Maina, Stephen Karuku and how we build SportPesa, Betika jackpot picks and daily accas.">
 <meta name="keywords" content="about alljackpotpredictions, football tips analysts, prediction methodology, jackpot tips team">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/about">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/about">
-<meta property="og:title" content="About AllJackpotPredictions — The Team Behind Our Football Prediction Tips">
+<meta property="og:title" content="About AllJackpotPredictions — Jackpot Desk &amp; Analyst Team">
 <meta property="og:description" content="Meet the editorial team behind AllJackpotPredictions. Our mission, standards and the story of how we built a transparent, data-driven football tips service.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
@@ -34,7 +34,7 @@
       "@type": "Organization",
       "name": "AllJackpotPredictions",
       "url": "https://www.alljackpotpredictions.com",
-      "description": "Data-driven football prediction tips service. Every tip passes a six-stage analysis process before publication.",
+      "description": "Jackpot predictions and accumulator tips desk for SportPesa, Betika and multi-leg slips. Free board, entertainment only.",
       "sameAs": ["https://twitter.com/AllJackpotPreds"]
     },
     {
@@ -710,7 +710,7 @@
         <div class="abt-tl-dot active"></div>
       </div>
       <div class="abt-tl-right">
-        <div class="abt-tl-heading">48+ tips daily across all major leagues</div>
+        <div class="abt-tl-heading">Full daily board for jackpots and accas</div>
         <p class="abt-tl-body">
           AllJackpotPredictions now covers major European leagues — Premier League, La Liga, Bundesliga,
           Serie A, Ligue 1, Champions League and Europa League — plus the jackpot sheets bettors
@@ -909,7 +909,7 @@
     <div class="rg-top">
       <span class="rg-icon">🛡</span>
       <div>
-        <div class="rg-title">Football Prediction Tips Are Entertainment — Not Financial Advice</div>
+        <div class="rg-title">Tips Are Entertainment — Not Financial Advice</div>
         <p class="rg-sub">All tips on AllJackpotPredictions are for entertainment purposes only. 18+ only. Please gamble responsibly.</p>
       </div>
     </div>

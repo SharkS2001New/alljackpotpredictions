@@ -176,18 +176,18 @@ $mustWinCount = count($mustWinFixtures);
       <div>
         <div class="hero-kicker">
           <span class="hero-kicker-dot"></span>
-          <span class="hero-kicker-text">Football Prediction Tips · <?php echo date('j F Y'); ?></span>
+          <span class="hero-kicker-text">Jackpot slips &amp; daily accas · <?php echo date('j F Y'); ?></span>
         </div>
         <h1 class="hero-h1">
-          Football<br>
-          Prediction<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $allCount; ?> expert betting tips today across all major leagues — zero cost, no login</span>
+          Jackpot<br>
+          Predictions<br>
+          <span class="h1-accent">&amp; Accas</span>
+          <span class="h1-sub"><?php echo $allCount; ?> free tips today — bankers, supporting legs and multi-market ideas for SportPesa, Betika and beyond</span>
         </h1>
         <p class="hero-desc">
-          <strong>Data-driven football prediction tips.</strong> Every betting tip backed by form tables,
-          xG models, head-to-head records and squad intelligence — updated daily across
-          Premier League, Champions League, La Liga, Bundesliga, Serie A and more.
+          <strong>Built for jackpot sheets — not tip spam.</strong> AllJackpotPredictions filters every fixture
+          for slip role: banker anchor, supporting leg, or leave it off. Free board for SportPesa Mega &amp; Midweek,
+          Betika, Mozzart, Odibet and everyday accumulators — updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Tips</a>
@@ -199,7 +199,7 @@ $mustWinCount = count($mustWinFixtures);
 
     <!-- RIGHT PANEL: Top betting tips -->
     <?php
-      $hrTitle = 'Best Betting Tips Today';
+      $hrTitle = 'Today\'s Banker Shortlist';
       $hrTips = array_slice($top5Fixtures, 0, 3);
       $hrTipFn = static function ($tip) {
           $pred = $tip['prediction'] ?? [];
@@ -237,7 +237,7 @@ $mustWinCount = count($mustWinFixtures);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <span class="bc-cur">Betting Tips Today</span>
+    <span class="bc-cur">Jackpot Predictions &amp; Accas</span>
   </div>
 </nav>
 
@@ -359,7 +359,7 @@ $mustWinCount = count($mustWinFixtures);
         <div class="op-body">
           <div class="op-match"><?php echo htmlspecialchars($home) . " vs " . htmlspecialchars($away); ?></div>
           <span class="op-market"><?php echo $shortPred; ?> · <?php echo htmlspecialchars($leagueName); ?></span>
-          <div class="op-note"><?php echo $pred['reason'] ?? "Elite confidence pick with strong data backing. Stake recommendation: " . $stakeRec; ?></div>
+          <div class="op-note"><?php echo $pred['reason'] ?? "High-conviction slip anchor. Suggested stake: " . $stakeRec; ?></div>
         </div>
         <div class="op-right">
           <div class="op-odds"><?php echo number_format((float)$odds, 2); ?></div>
@@ -374,7 +374,7 @@ $mustWinCount = count($mustWinFixtures);
     <div class="section-head" style="margin-top:36px">
       <div class="sh-left">
         <span class="sh-num" style="display:flex;align-items:center;gap:6px"><span class="live-pulse"></span>Live</span>
-        <h2 class="sh-title">All Football Prediction Tips Today</h2>
+        <h2 class="sh-title">Today's Full Tips Board</h2>
       </div>
       <div class="sh-divider"></div>
       <span class="section-count"><?php echo $allCount; ?> tips</span>
@@ -527,8 +527,8 @@ $mustWinCount = count($mustWinFixtures);
     <a class="rec-card" href="/predictions-weekend">
       <div class="rec-card-accent"></div>
       <div class="rec-cat">Weekend Tips</div>
-      <div class="rec-title">Saturday & Sunday Football Prediction Tips</div>
-      <div class="rec-desc">Plan ahead — 40+ matches covered across all major leagues this weekend.</div>
+      <div class="rec-title">Weekend Tips Board — Saturday &amp; Sunday</div>
+      <div class="rec-desc">Plan ahead — weekend board for Saturday/Sunday slips and jackpot planning.</div>
       <div class="rec-foot"><span class="rec-count">40+ tips</span><span class="rec-arr">→</span></div>
     </a>
   </div>

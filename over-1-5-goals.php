@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Over 1.5 Goals Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free over 1.5 goals predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Over 1.5 goals tips for safer accumulator padding and jackpot-friendly legs. Free on AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/over-1-5-goals#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Over 1.5 Goals Tips", "item": "https://www.alljackpotpredictions.com/over-1-5-goals"}
       ]
     },
@@ -205,13 +205,13 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Over 1.5<br>
           Goals<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> over 1.5 goals tips today — the safest goals market, updated daily</span>
+          <span class="h1-accent">for Safer Legs</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> over 1.5 tips today — lower-price totals that often pad a jackpot or short acca</span>
         </h1>
         <p class="hero-desc">
-          <strong>The highest-confidence goals market.</strong> Over 1.5 goals hits in roughly 80% of top-flight matches.
-          Every tip is built from scoring streaks, defensive records and xG data —
-          analysed across the Premier League, Champions League, La Liga, Bundesliga, Serie A and more.
+          <strong>The safer goals line for slip builders.</strong> Over 1.5 is where AllJackpotPredictions looks when
+          you need a supporting total without stretching a SportPesa or Betika sheet. Free board, updated daily.
+          Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Over 1.5 Tips</a>
@@ -256,7 +256,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Over 1.5 Goals Tips</span>
   </div>

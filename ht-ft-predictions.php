@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="HT/FT Predictions Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free half time full time tips today — data-driven, no login required.">
+<meta name="twitter:description" content="HT/FT tips for specialist accumulator legs — not default jackpot fillers. Free — AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/ht-ft-predictions#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "HT/FT Predictions", "item": "https://www.alljackpotpredictions.com/ht-ft-predictions"}
       ]
     },
@@ -208,14 +208,13 @@ $topTipsCount = count($topTips);
         </div>
         <h1 class="hero-h1">
           HT/FT<br>
-          <span class="h1-accent">Predictions</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> half time full time tips today — all 9 combinations across all major leagues</span>
+          <span class="h1-accent">Specialist Legs</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> half-time/full-time tips today — higher-price combos; keep off long jackpot sheets</span>
         </h1>
         <p class="hero-desc">
-          <strong>Predict both halves, earn bigger odds.</strong> HT/FT betting requires you to correctly
-          call the result at half time <em>and</em> at full time — both in a single bet. Nine combinations,
-          significantly higher odds than straight match result bets, and a unique edge when first-half
-          and second-half patterns are clearly identifiable. Every tip is data-driven and updated daily.
+          <strong>Both halves in one bet — variance included.</strong> HT/FT is spice on AllJackpotPredictions:
+          fine for short specialist accas when the script is clear, not a SportPesa Mega banker.
+          Free board, updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All HT/FT Tips</a>
@@ -264,7 +263,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">HT/FT Predictions</span>
   </div>

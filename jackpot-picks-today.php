@@ -32,7 +32,7 @@ $totalCatalog = count($allSlugs);
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions">
-<meta name="twitter:description" content="Jackpot Picks Today — elite banker tips of the day. Our highest-confidence football predictions, hand-selected daily. No login needed.">
+<meta name="twitter:description" content="Banker shortlist for today's slips — Jackpot Picks on AllJackpotPredictions. Entertainment only, 18+.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -42,7 +42,7 @@ $totalCatalog = count($allSlugs);
       "@id": "https://www.alljackpotpredictions.com/jackpot-picks-today",
       "url": "https://www.alljackpotpredictions.com/jackpot-picks-today",
       "name": "Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions",
-      "description": "Jackpot Picks Today are AllJackpotPredictions' elite banker tips of the day — the highest-confidence football predictions published by our senior analyst team, updated daily across all major leagues.",
+      "description": "Jackpot Picks Today is AllJackpotPredictions' banker shortlist — high-conviction anchors for singles and multi-leg slips, updated daily.",
       "inLanguage": "en-GB",
       "isPartOf": {"@id": "https://www.alljackpotpredictions.com/#website"},
       "breadcrumb": {"@id": "https://www.alljackpotpredictions.com/jackpot-picks-today#breadcrumb"}
@@ -52,7 +52,7 @@ $totalCatalog = count($allSlugs);
       "@id": "https://www.alljackpotpredictions.com/jackpot-picks-today#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Jackpot Picks Today", "item": "https://www.alljackpotpredictions.com/jackpot-picks-today"}
       ]
     },

@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Accumulator Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free football acca tips today — pre-built accumulators across all major markets. No login required.">
+<meta name="twitter:description" content="Structured accumulator tips from AllJackpotPredictions — jackpot-aware leg selection, free daily.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/accumulator-tips#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Accumulator Tips", "item": "https://www.alljackpotpredictions.com/accumulator-tips"}
       ]
     },
@@ -210,12 +210,12 @@ $fiveFoldAvgConf = count($fiveFoldLegs) > 0 ? round(array_sum(array_map(function
         <h1 class="hero-h1">
           Accumulator<br>
           <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> high-confidence tips available — pre-built accas with full leg breakdown</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> high-conviction legs available — ready-made accas with full breakdown</span>
         </h1>
         <p class="hero-desc">
-          <strong>Higher odds. One ticket.</strong> Every accumulator is pre-built from today's strongest individual tips —
-          full leg breakdown, combined odds, confidence rating and market type shown for every acca.
-          Updated daily, no login required.
+          <strong>One ticket, disciplined legs.</strong> Accumulators on AllJackpotPredictions are built from
+          today's strongest board tips — combined odds, markets and confidence shown per slip.
+          Use them alongside jackpot planning, not instead of banker selection. Free, updated daily. 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#accas">↓ See All Accumulators</a>
@@ -295,7 +295,7 @@ $fiveFoldAvgConf = count($fiveFoldLegs) > 0 ? round(array_sum(array_map(function
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Accumulator Tips</span>
   </div>

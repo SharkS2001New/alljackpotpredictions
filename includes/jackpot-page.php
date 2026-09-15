@@ -501,7 +501,7 @@ $shortName = preg_replace('/\s+Predictions$/i', '', $defaultTitle) ?: $defaultTi
       if ($intro !== '') {
           echo htmlspecialchars($intro);
       } elseif ($gameCount > 0) {
-          echo 'Free expert predictions for all ' . (int) $gameCount . ' games — with odds, confidence, and a full picks slip.';
+          echo 'Free 1X2 picks for all ' . (int) $gameCount . ' coupon games — odds, confidence and a full slip view.';
       } else {
           echo 'Coupon fixtures will appear when this jackpot is active.';
       }
@@ -517,7 +517,7 @@ $shortName = preg_replace('/\s+Predictions$/i', '', $defaultTitle) ?: $defaultTi
       </div>
       <div>
         <div class="stat-num">Free</div>
-        <div class="stat-label">No login</div>
+        <div class="stat-label">Always free</div>
       </div>
     </div>
   </div>

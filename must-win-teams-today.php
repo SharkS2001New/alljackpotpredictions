@@ -6,7 +6,7 @@ if (!in_array($mwActiveCat, ['all', 'home', 'away', 'never', 'trust'], true)) {
 $__mwDefaults = [
     'all' => [
         'title' => 'Must Win Teams Today — Home & Away Teams To Win | AllJackpotPredictions',
-        'desc' => 'Must win teams today — home teams to win today, away teams to win today and the most trusted teams that will never lose. Data-backed picks updated daily.',
+        'desc' => 'Must-win teams today for jackpot and accumulator anchors — home, away and highest-conviction leans. Free on AllJackpotPredictions.',
         'keywords' => 'must win teams today, home teams to win today, away teams to win today, teams that will never lose, most trusted teams to win today',
         'canonical' => 'https://www.alljackpotpredictions.com/must-win-teams-today',
         'h1' => 'Today',
@@ -378,9 +378,9 @@ $topTips = array_slice($mwActiveCat === 'all' ? $allFixtures : $fixtures, 0, 3);
           <span class="h1-sub"><?php echo (int) $visiblePicks; ?> picks in this view · <?php echo (int) $totalPicks; ?> must-win tips today</span>
         </h1>
         <p class="hero-desc">
-          <strong>Must win teams today — selected where the data, context and competitive pressure all point one way.</strong>
-          Our analysts identify home teams to win today, away teams to win today, teams that will never lose today
-          and the most trusted teams to win today — backed by form tables, xG data, injury reports and league-position pressure.
+          <strong>High-pressure fixtures for jackpot anchors.</strong> Must-win teams on AllJackpotPredictions
+          are home or away sides where form, absences and league pressure align — shortlisted for bankers
+          and short-acca anchors, not a blanket “tips today” dump. Free board, updated daily. 18+.
         </p>
         <div class="hero-stats-strip">
           <div class="hss-item"><span class="hss-val"><?php echo $totalPicks; ?></span><span class="hss-lbl">Must Win Picks</span></div>
@@ -442,7 +442,7 @@ $topTips = array_slice($mwActiveCat === 'all' ? $allFixtures : $fixtures, 0, 3);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Must Win Teams Today</span>
   </div>

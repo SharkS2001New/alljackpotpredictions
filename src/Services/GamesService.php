@@ -302,10 +302,21 @@ SELECT
   f.goals_away,
   f.timezone,
   l.league_name,
-  l.country_name
+  l.country_name,
+  o.bets_home,
+  o.bets_draw,
+  o.bets_away
 FROM pp_fixtures_selections s
 LEFT JOIN fixtures f ON f.fixture_id = CAST(s.fixture_id AS UNSIGNED)
 LEFT JOIN leagues l ON l.league_id = f.league_id
+LEFT JOIN odds o ON o.id = (
+  SELECT o2.id FROM odds o2
+  WHERE o2.fixture_id = CAST(s.fixture_id AS UNSIGNED)
+  ORDER BY
+    {$this->bookmakerPreferenceSql('o2')},
+    o2.id ASC
+  LIMIT 1
+)
 WHERE s.status = 1
 SQL;
 
@@ -2553,9 +2564,32 @@ SQL;
         $score = ($goalsHome !== null && $goalsAway !== null)
             ? ((int) $goalsHome . '-' . (int) $goalsAway)
             : null;
+        $oddsHome = $this->oddStr($row['bets_home'] ?? null);
+        $oddsDraw = $this->oddStr($row['bets_draw'] ?? null);
+        $oddsAway = $this->oddStr($row['bets_away'] ?? null);
+
         $odd = (string) ($row['odd'] ?? '');
         if ($odd === '-' || $odd === '') {
             $odd = null;
+        }
+        // Jackpot selections often store odd as "-" — use book 1X2 for the published pick.
+        if ($odd === null) {
+            $pickBookOdd = match ($code) {
+                '1' => $oddsHome,
+                'X' => $oddsDraw,
+                '2' => $oddsAway,
+                '1X' => $oddsHome !== null && $oddsDraw !== null
+                    ? $this->oddStr(min((float) $oddsHome, (float) $oddsDraw))
+                    : ($oddsHome ?? $oddsDraw),
+                'X2' => $oddsDraw !== null && $oddsAway !== null
+                    ? $this->oddStr(min((float) $oddsDraw, (float) $oddsAway))
+                    : ($oddsDraw ?? $oddsAway),
+                '12' => $oddsHome !== null && $oddsAway !== null
+                    ? $this->oddStr(min((float) $oddsHome, (float) $oddsAway))
+                    : ($oddsHome ?? $oddsAway),
+                default => null,
+            };
+            $odd = $pickBookOdd;
         }
 
         $pos = isset($row['jackpot_position']) ? (int) $row['jackpot_position'] : 0;
@@ -2615,6 +2649,12 @@ SQL;
             'pick' => $this->tipLabel($code),
             'pick_code' => $code,
             'odds' => $odd,
+            'odds_home' => $oddsHome,
+            'odds_draw' => $oddsDraw,
+            'odds_away' => $oddsAway,
+            'home_prob' => $hProb > 0 ? $hProb : null,
+            'draw_prob' => $dProb > 0 ? $dProb : null,
+            'away_prob' => $aProb > 0 ? $aProb : null,
             'confidence' => $this->clampPublishedConfidence($conf),
             'reason' => $this->selectionAdviceLine($row, $code, $market, $odd, $pos, $this->clampPublishedConfidence($conf)),
             'category' => (string) ($row['category'] ?? ''),

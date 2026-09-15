@@ -12,14 +12,14 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/1x2-prediction">
-<meta property="og:title" content="1X2 Prediction Tips Today — Match Result Betting Tips | AllJackpotPredictions">
+<meta property="og:title" content="1X2 Tips for Jackpot Anchors &amp; Match Results | AllJackpotPredictions">
 <meta property="og:description" content="1X2 tips for slip builders — banker-friendly home and away leans, updated daily on AllJackpotPredictions.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
-<meta name="twitter:title" content="1X2 Prediction Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free 1X2 match result tips today. Data-backed home win, draw and away win predictions — no login needed.">
+<meta name="twitter:title" content="1X2 Tips for Jackpot Anchors | AllJackpotPredictions">
+<meta name="twitter:description" content="1X2 tips for jackpot anchors and accumulator legs — home, draw and away. Free on AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/1x2-prediction#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "1X2 Prediction Tips", "item": "https://www.alljackpotpredictions.com/1x2-prediction"}
       ]
     },
@@ -186,18 +186,18 @@ $topTipsCount = count($topTips);
       <div>
         <div class="hero-kicker">
           <span class="hero-kicker-dot"></span>
-          <span class="hero-kicker-text">1X2 Match Result Tips · <?php echo date('j F Y'); ?></span>
+          <span class="hero-kicker-text">1X2 match results · <?php echo date('j F Y'); ?></span>
         </div>
         <h1 class="hero-h1">
           1X2<br>
-          Prediction<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> match result tips today — home wins, draws &amp; away wins across all major leagues</span>
+          Tips for<br>
+          <span class="h1-accent">Jackpot Anchors</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> home, draw &amp; away leans today — filtered for bankers and multi-leg slips</span>
         </h1>
         <p class="hero-desc">
-          <strong>The most popular betting market, done right.</strong> Every 1X2 prediction is backed by form tables,
-          head-to-head records, squad fitness data and xG modelling — analysed daily across the
-          Premier League, Champions League, La Liga, Bundesliga, Serie A and more.
+          <strong>Match-result tips built for slip builders.</strong> We publish 1X2 ideas with jackpot and accumulator
+          roles in mind — which fixtures can anchor a SportPesa or Betika sheet, which only suit a shorter acca,
+          and which to skip. Free board, updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All 1X2 Tips</a>
@@ -231,7 +231,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">1X2 Prediction Tips</span>
   </div>
@@ -243,7 +243,7 @@ $topTipsCount = count($topTips);
     <div class="section-head">
       <div class="sh-left">
         <span class="sh-num" style="display:flex;align-items:center;gap:6px"><span class="live-pulse"></span>Live</span>
-        <h2 class="sh-title">All 1X2 Prediction Tips Today</h2>
+        <h2 class="sh-title">Today's 1X2 Board</h2>
       </div>
       <div class="sh-divider"></div>
       <span class="section-count"><?php echo $totalTips; ?> tips</span>

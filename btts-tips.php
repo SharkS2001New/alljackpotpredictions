@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="BTTS Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free BTTS tips today. Data-backed both teams to score predictions — no login needed.">
+<meta name="twitter:description" content="BTTS Yes/No ideas for accumulator and jackpot supporting legs. Free daily board on AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/btts-tips#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "BTTS Tips", "item": "https://www.alljackpotpredictions.com/btts-tips"}
       ]
     },
@@ -68,7 +68,7 @@
           "name": "Which leagues do AllJackpotPredictions' BTTS tips cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our daily BTTS tips cover the Premier League, UEFA Champions League, La Liga, Bundesliga, Serie A, Ligue 1 and selected cup competitions — updated daily with no login required."
+            "text": "BTTS tips on AllJackpotPredictions are published for supporting accumulator legs and selective jackpot padding — free board, updated daily."
           }
         },
         {
@@ -203,14 +203,14 @@ $topTipsCount = count($topTips);
         </div>
         <h1 class="hero-h1">
           BTTS<br>
-          Tips<br>
-          <span class="h1-accent">Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> both teams to score tips today — across all major leagues</span>
+          Tips for<br>
+          <span class="h1-accent">Acca Legs</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> both-teams-to-score leans today — GG/NG ideas for supporting legs, not blind jackpot fillers</span>
         </h1>
         <p class="hero-desc">
-          <strong>Goals from both ends, backed by data.</strong> Every BTTS tip is built from clean sheet rates,
-          scoring streaks, head-to-head records and xG models — analysed daily across the
-          Premier League, Champions League, La Liga, Bundesliga, Serie A and more.
+          <strong>Goals-from-both-ends for multi-leg sheets.</strong> Use BTTS Yes when both sides reliably create chances;
+          BTTS No when a clean sheet is realistic. AllJackpotPredictions treats these as supporting legs —
+          strong for shorter accumulators, selective on long jackpot coupons. Free, updated daily. 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All BTTS Tips</a>
@@ -261,7 +261,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">BTTS Tips Today</span>
   </div>

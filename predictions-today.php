@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Football Predictions Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free football predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Today's full tips board for jackpot and accumulator builders — free on AllJackpotPredictions.">
 
 <link rel="icon" href="/img/favicon.ico" sizes="any">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
@@ -334,11 +334,12 @@ sort($allLeagues);
       <span class="pt-hero-kicker-text">Football Predictions · <?php echo date('j F Y'); ?></span>
     </div>
     <h1 class="pt-hero-h1">
-      Today's Football<br>
-      <span>Predictions &amp; Tips</span>
+      Today's Tips<br>
+      <span>Board for Slip Builders</span>
     </h1>
     <p class="pt-hero-desc">
-      <?php echo count($fixtures); ?> free predictions across multiple markets — 1X2, BTTS, Over/Under Goals, Double Chance and more. Data-driven, updated daily, no login required.
+      <?php echo count($fixtures); ?> free tips across 1X2, BTTS, goals, double chance and more —
+      scan markets, then build SportPesa, Betika and everyday accumulator slips. Updated daily. 18+.
     </p>
     <div class="pt-hero-stats">
       <div class="pt-stat">

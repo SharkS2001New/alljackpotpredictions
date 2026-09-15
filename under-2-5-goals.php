@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Under 2.5 Goals Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free under 2.5 goals predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Under 2.5 goals tips for tight fixtures on accumulator and jackpot sheets. Free — AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/under-2-5-goals#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Under 2.5 Goals Tips", "item": "https://www.alljackpotpredictions.com/under-2-5-goals"}
       ]
     }
@@ -154,13 +154,13 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Under 2.5<br>
           Goals<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> under 2.5 goals tips today — tight matches, defensive setups &amp; low-scoring predictions</span>
+          <span class="h1-accent">Tight Games</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> under 2.5 tips today — low-scoring leans for controlled multi-leg sheets</span>
         </h1>
         <p class="hero-desc">
-          <strong>Defensive intelligence, backed by data.</strong> Every under 2.5 goals tip is built from
-          clean sheet rates, goals-conceded averages, head-to-head low-scoring history and
-          tactical analysis — covering Serie A, La Liga, Champions League, Premier League and more.
+          <strong>Defensive fixtures for disciplined slips.</strong> Under 2.5 suits games where chance quality
+          is muted — useful padding on shorter accas, selective on long jackpots. Free AllJackpotPredictions
+          board, updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Under 2.5 Tips</a>
@@ -205,7 +205,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Under 2.5 Goals Tips</span>
   </div>

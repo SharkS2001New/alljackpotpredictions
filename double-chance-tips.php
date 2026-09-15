@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Double Chance Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free double chance predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="1X, X2 and 12 double-chance tips for safer jackpot and accumulator legs. Free — AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/double-chance-tips#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Double Chance Tips", "item": "https://www.alljackpotpredictions.com/double-chance-tips"}
       ]
     },
@@ -218,13 +218,13 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Double<br>
           Chance<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> double chance tips today — 1X, X2 and 12 predictions across all major leagues</span>
+          <span class="h1-accent">Safer Legs</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> 1X, X2 &amp; 12 tips today — cover two outcomes on tougher jackpot fixtures</span>
         </h1>
         <p class="hero-desc">
-          <strong>Cover two outcomes. Back teams with confidence.</strong> Double chance covers a home win
-          or draw (1X), draw or away win (X2), or home or away win with no draw (12) —
-          giving you two paths to a winning bet. Every tip is data-driven, updated daily.
+          <strong>Two paths to a winning leg.</strong> Double chance (1X / X2 / 12) is how AllJackpotPredictions
+          softens awkward coupon games without abandoning the sheet — common on SportPesa and Betika jackpots.
+          Free board, updated daily. Entertainment only, 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Double Chance Tips</a>
@@ -273,7 +273,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Double Chance Tips</span>
   </div>

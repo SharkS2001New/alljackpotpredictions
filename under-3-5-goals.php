@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Under 3.5 Goals Tips Today | AllJackpotPredictions">
-<meta name="twitter:description" content="Free under 3.5 goals predictions today — data-driven, no login required.">
+<meta name="twitter:description" content="Under 3.5 goals tips when you want a goals buffer on multi-leg slips. Free — AllJackpotPredictions.">
 
 <script type="application/ld+json">
 {
@@ -40,7 +40,7 @@
       "@id": "https://www.alljackpotpredictions.com/under-3-5-goals#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alljackpotpredictions.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Football Prediction Tips", "item": "https://www.alljackpotpredictions.com/predictions-today"},
+        {"@type": "ListItem", "position": 2, "name": "Tips Board", "item": "https://www.alljackpotpredictions.com/predictions-today"},
         {"@type": "ListItem", "position": 3, "name": "Under 3.5 Goals Tips", "item": "https://www.alljackpotpredictions.com/under-3-5-goals"}
       ]
     }
@@ -154,14 +154,12 @@ $topTipsCount = count($topTips);
         <h1 class="hero-h1">
           Under 3.5<br>
           Goals<br>
-          <span class="h1-accent">Tips Today</span>
-          <span class="h1-sub"><?php echo $totalTips; ?> under 3.5 goals tips today — controlled matches, 3 goals or fewer predictions</span>
+          <span class="h1-accent">Goals Buffer</span>
+          <span class="h1-sub"><?php echo $totalTips; ?> under 3.5 tips today — a softer total for multi-leg builders who want cover</span>
         </h1>
         <p class="hero-desc">
-          <strong>The most balanced goals market.</strong> Under 3.5 goals hits in roughly 65–72% of
-          top-flight matches — higher than under 2.5 with better odds.
-          Every tip is built from goals averages, clean sheet data, H2H history
-          and tactical context across the Premier League, Serie A, La Liga and more.
+          <strong>Room for a goal without wrecking the slip.</strong> Under 3.5 is AllJackpotPredictions' buffer
+          line — useful when you like a fixture but won't force under 2.5. Free board, updated daily. 18+.
         </p>
         <div class="hero-ctas">
           <a class="btn-primary" href="#tips">↓ See All Under 3.5 Tips</a>
@@ -208,7 +206,7 @@ $topTipsCount = count($topTips);
   <div class="breadcrumb">
     <a href="/">Home</a>
     <span class="bc-sep">/</span>
-    <a href="/predictions-today">Football Prediction Tips</a>
+    <a href="/predictions-today">Tips Board</a>
     <span class="bc-sep">/</span>
     <span class="bc-cur">Under 3.5 Goals Tips</span>
   </div>

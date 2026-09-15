@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>How It Works — How We Build Our Football Prediction Tips | AllJackpotPredictions</title>
+<title>How It Works — How We Build Jackpot Picks &amp; Accas | AllJackpotPredictions</title>
 <meta name="description" content="Learn exactly how AllJackpotPredictions builds every football prediction tip. Our six-stage methodology — statistical modelling, context analysis, squad verification and more — explained in full.">
 <meta name="keywords" content="how football prediction tips work, how betting tips are made, jackpot picks methodology, football tips explained, prediction tip process, xG model tips">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
@@ -12,7 +12,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/how-it-works">
-<meta property="og:title" content="How It Works — How We Build Our Football Prediction Tips | AllJackpotPredictions">
+<meta property="og:title" content="How It Works — How We Build Jackpot Picks &amp; Accas | AllJackpotPredictions">
 <meta property="og:description" content="Six-stage methodology behind every AllJackpotPredictions tip. Transparent, data-driven, analyst-reviewed, published before kick-off.">
 <meta property="og:site_name" content="AllJackpotPredictions">
 
@@ -27,13 +27,13 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home",                    "item": "https://www.alljackpotpredictions.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Football Prediction Tips","item": "https://www.alljackpotpredictions.com/predictions-today" },
+        { "@type": "ListItem", "position": 2, "name": "Tips Board","item": "https://www.alljackpotpredictions.com/predictions-today" },
         { "@type": "ListItem", "position": 3, "name": "How It Works",            "item": "https://www.alljackpotpredictions.com/how-it-works" }
       ]
     },
     {
       "@type": "HowTo",
-      "name": "How AllJackpotPredictions Builds Football Prediction Tips",
+      "name": "How AllJackpotPredictions Builds Jackpot Picks & Accas",
       "description": "Six-stage process from raw data to published tip.",
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Statistical Modelling",   "text": "Raw match data — form, xG, goals data — compiled and probability model run." },
@@ -956,7 +956,7 @@
     <div class="rg-top">
       <span class="rg-icon">🛡</span>
       <div>
-        <div class="rg-title">Football Prediction Tips Are Entertainment — Not Financial Advice</div>
+        <div class="rg-title">Tips Are Entertainment — Not Financial Advice</div>
         <p class="rg-sub">All tips on AllJackpotPredictions are for entertainment purposes only. 18+ only. Please gamble responsibly.</p>
       </div>
     </div>

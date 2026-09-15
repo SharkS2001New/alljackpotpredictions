@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Weekend Football Predictions | AllJackpotPredictions">
-<meta name="twitter:description" content="Free weekend football tips — Saturday and Sunday predictions across all markets and leagues.">
+<meta name="twitter:description" content="Weekend tips for Saturday/Sunday slips and jackpot planning — free on AllJackpotPredictions.">
 
 <link rel="icon" href="/img/favicon.ico" sizes="any">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
@@ -304,12 +304,12 @@ $endNumSat = $__lm['shown'];
       <span class="pt-hero-kicker-text">Weekend Predictions · Sat <?php echo date('j', strtotime($startDate)); ?> &amp; Sun <?php echo date('j F Y', strtotime($endDate)); ?></span>
     </div>
     <h1 class="pt-hero-h1">
-      Weekend Football<br>
-      <span>Predictions &amp; Tips</span>
+      Weekend Tips<br>
+      <span>for Jackpot Planning</span>
     </h1>
     <p class="pt-hero-desc">
-      <?php echo $totalMatches; ?> free predictions across Saturday and Sunday — 1X2, BTTS, Over/Under Goals, Correct Score,
-      Double Chance, HT/FT, Accumulators and more. Covering every major league across the full weekend.
+      <?php echo $totalMatches; ?> free tips across Saturday and Sunday — 1X2, BTTS, goals, double chance and more.
+      Built for weekend slips and SportPesa / Betika jackpot planning. Updated daily. 18+.
     </p>
     <div class="pt-hero-stats">
       <div class="pt-stat">
@@ -689,14 +689,14 @@ $endNumSat = $__lm['shown'];
     <a class="pt-fcard" href="/1x2-prediction">
       <div class="pt-fcard-top"><div class="pt-fcard-kicker">Match Result</div><span class="pt-fcard-badge badge-green">71% win rate</span></div>
       <h3 class="pt-fcard-title">1X2 Tips This Weekend</h3>
-      <p class="pt-fcard-desc">28 match result predictions across Saturday and Sunday &#8212; Home Win, Draw or Away Win. Backed by form, xG, H2H and motivation data.</p>
+      <p class="pt-fcard-desc">28 match-result tips across Saturday and Sunday — home, draw or away leans for jackpot anchors and short accas.</p>
       <div class="pt-fcard-tags"><span class="pt-ftag pt-ftag-hi">Home Win 15</span><span class="pt-ftag">Draw 7</span><span class="pt-ftag pt-ftag-navy">Away 6</span></div>
       <div class="pt-fcard-footer"><span class="pt-fcard-count">28 tips · Sat &amp; Sun</span><span class="pt-fcard-arrow">→</span></div>
     </a>
     <a class="pt-fcard" href="/btts-tips">
       <div class="pt-fcard-top"><div class="pt-fcard-kicker">Both Teams to Score</div><span class="pt-fcard-badge badge-green">77% win rate</span></div>
       <h3 class="pt-fcard-title">BTTS Tips This Weekend</h3>
-      <p class="pt-fcard-desc">22 both-teams-to-score predictions across the full weekend. GG and NG tips with xG breakdown and H2H scoring data.</p>
+      <p class="pt-fcard-desc">22 both-teams-to-score leans across the weekend — GG/NG ideas for supporting accumulator legs.</p>
       <div class="pt-fcard-tags"><span class="pt-ftag pt-ftag-hi">GG (Yes) 16</span><span class="pt-ftag pt-ftag-fire">NG (No) 6</span></div>
       <div class="pt-fcard-footer"><span class="pt-fcard-count">22 tips · Sat &amp; Sun</span><span class="pt-fcard-arrow">→</span></div>
     </a>
