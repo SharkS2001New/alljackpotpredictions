@@ -398,11 +398,10 @@ $topTipsCount = count($topTips);
           </div>
         </article>
         <?php endforeach; ?>
-      </div>
 
       <?php if ($hasMoreMatches): ?>
       <div class="pagination-wrap" style="border:0;background:transparent;padding:0;margin-top:8px">
-        <span class="pg-info" style="display:block;text-align:center;margin-bottom:4px">Showing <?php echo $endNum; ?> of <?php echo $totalTips; ?> tips</span>
+        <span class="pg-info" data-ajp-progress data-noun="tips" data-total="<?php echo (int) $totalTips; ?>" style="display:block;text-align:center;margin-bottom:4px">Showing <?php echo $endNum; ?> of <?php echo $totalTips; ?> tips</span>
       </div>
       <?php
         echo ajp_load_more_html('over-under-predictions', $nextStartMatches, [
@@ -414,6 +413,7 @@ $topTipsCount = count($topTips);
         ]);
       ?>
       <?php endif; ?>
+      </div>
     <?php endif; ?>
 
   </main>
@@ -658,7 +658,7 @@ $topTipsCount = count($topTips);
 <button class="btt" id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script src="main.js"></script>
-<script src="load-more.js" defer></script>
+<script src="/load-more.js?v=20260916a" defer></script>
 <script>
 // Toggle expand/collapse functionality
 document.querySelectorAll('.pc-tog-btn').forEach(btn => {

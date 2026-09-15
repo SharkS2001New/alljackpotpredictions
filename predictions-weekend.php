@@ -477,7 +477,7 @@ $endNumSat = $__lm['shown'];
 
     <?php if ($hasMoreMatches): ?>
     <div class="pagination-wrap" style="border:0;background:transparent;padding:0;margin-top:8px">
-      <span class="pg-info" style="display:block;text-align:center;margin-bottom:4px">Showing <?php echo $endNumSat; ?> of <?php echo $totalMatches; ?> matches</span>
+      <span class="pg-info" data-ajp-progress data-noun="matches" data-total="<?php echo (int) $totalMatches; ?>" style="display:block;text-align:center;margin-bottom:4px">Showing <?php echo $endNumSat; ?> of <?php echo $totalMatches; ?> matches</span>
     </div>
     <?php
       echo ajp_load_more_html('weekend-football-predictions', $nextStartMatches, [
@@ -802,7 +802,7 @@ $endNumSat = $__lm['shown'];
 <button class="btt" id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script src="main.js"></script>
-<script src="load-more.js" defer></script>
+<script src="/load-more.js?v=20260916a" defer></script>
 <script>
 // ── Tab switching ──────────────────────────────────────────
 document.querySelectorAll('.wknd-tab').forEach(function(tab) {
