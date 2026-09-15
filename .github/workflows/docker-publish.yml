@@ -69,9 +69,15 @@ jobs:
 
       - name: Update values.yaml with new image tag
         run: |
+          VALUES_FILE="pitchpredk3ssetup/alljackpotpredictions/values.yaml"
+          if [ ! -f "$VALUES_FILE" ]; then
+            echo "Missing $VALUES_FILE in pitchpredk3ssetup repo"
+            exit 1
+          fi
           SHORT_SHA_PART="${{ steps.meta.outputs.tags }}"
           SHORT_SHA_PART="$(echo "$SHORT_SHA_PART" | awk -F':' '{print $2}' | cut -c1-11)"
-          sed -i "s|tag:.*|tag: $SHORT_SHA_PART|" pitchpredk3ssetup/alljackpotpredictions/values.yaml
+          sed -i "s|tag:.*|tag: $SHORT_SHA_PART|" "$VALUES_FILE"
+          echo "SHORT_SHA_PART=$SHORT_SHA_PART" >> "$GITHUB_ENV"
           echo "Updated tag in values.yaml to $SHORT_SHA_PART"
 
       - name: Commit and push changes to pitchpredk3ssetup repo
@@ -80,7 +86,8 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add alljackpotpredictions/values.yaml
-          git commit -m "Update alljackpotpredictions Docker image tag to sha-$SHORT_SHA_PART"
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update alljackpotpredictions Docker image tag to $SHORT_SHA_PART"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
