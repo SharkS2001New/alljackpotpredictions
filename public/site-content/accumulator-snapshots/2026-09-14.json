@@ -1,0 +1,206 @@
+{
+    "date": "2026-09-14",
+    "updated_at": "2026-09-15T14:12:51+00:00",
+    "accumulators": [
+        {
+            "name": "3-Fold Acca",
+            "legs": 3,
+            "combined_odds": 2.76,
+            "blended_confidence": 76,
+            "picks": [
+                {
+                    "home": "Aveley",
+                    "away": "Wingate & Finchley",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.44",
+                    "confidence": 79,
+                    "league": "Non League Premier Isthmian",
+                    "fixture_id": 1595968
+                },
+                {
+                    "home": "SC Braga",
+                    "away": "Estoril",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.50",
+                    "confidence": 76,
+                    "league": "Primeira Liga",
+                    "fixture_id": 1575494
+                },
+                {
+                    "home": "Villarreal",
+                    "away": "Real Betis",
+                    "pick": "Double Chance 1X",
+                    "pick_code": "1X",
+                    "market": "double_chance",
+                    "odds": "1.28",
+                    "confidence": 74,
+                    "league": "La Liga",
+                    "fixture_id": 1570382
+                }
+            ]
+        },
+        {
+            "name": "5-Fold Acca",
+            "legs": 5,
+            "combined_odds": 4.51,
+            "blended_confidence": 65,
+            "picks": [
+                {
+                    "home": "Inter",
+                    "away": "Udinese",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.26",
+                    "confidence": 73,
+                    "league": "Serie A",
+                    "fixture_id": 1550120
+                },
+                {
+                    "home": "Como",
+                    "away": "Parma",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.26",
+                    "confidence": 71,
+                    "league": "Serie A",
+                    "fixture_id": 1550118
+                },
+                {
+                    "home": "Torino",
+                    "away": "AS Roma",
+                    "pick": "Away Win",
+                    "pick_code": "2",
+                    "market": "1x2",
+                    "odds": "1.54",
+                    "confidence": 62,
+                    "league": "Serie A",
+                    "fixture_id": 1550125
+                },
+                {
+                    "home": "Rio Ave",
+                    "away": "Estrela",
+                    "pick": "Double Chance X2",
+                    "pick_code": "X2",
+                    "market": "double_chance",
+                    "odds": "1.42",
+                    "confidence": 59,
+                    "league": "Primeira Liga",
+                    "fixture_id": 1575499
+                },
+                {
+                    "home": "Moreirense",
+                    "away": "Maritimo",
+                    "pick": "Double Chance 12",
+                    "pick_code": "12",
+                    "market": "double_chance",
+                    "odds": "1.30",
+                    "confidence": 58,
+                    "league": "Primeira Liga",
+                    "fixture_id": 1575497
+                }
+            ]
+        },
+        {
+            "name": "8-Fold Acca",
+            "legs": 8,
+            "combined_odds": 24.09,
+            "blended_confidence": 70,
+            "picks": [
+                {
+                    "home": "Al-Ahli Jeddah",
+                    "away": "Pakhtakor",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.22",
+                    "confidence": 80,
+                    "league": "AFC Champions League Elite",
+                    "fixture_id": 1629915
+                },
+                {
+                    "home": "Al-Qadisiyah FC",
+                    "away": "Al-Wasl FC",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.47",
+                    "confidence": 69,
+                    "league": "AFC Champions League Elite",
+                    "fixture_id": 1629916
+                },
+                {
+                    "home": "Neftchi",
+                    "away": "Al Quwa Al Jawiya",
+                    "pick": "Under 2.5 Goals",
+                    "pick_code": "U2.5",
+                    "market": "over_under",
+                    "odds": "1.73",
+                    "confidence": 67,
+                    "league": "AFC Champions League Elite",
+                    "fixture_id": 1629911
+                },
+                {
+                    "home": "Shabab Al Ahli Dubai",
+                    "away": "Tractor Sazi",
+                    "pick": "Under 2.5 Goals",
+                    "pick_code": "U2.5",
+                    "market": "over_under",
+                    "odds": "1.75",
+                    "confidence": 67,
+                    "league": "AFC Champions League Elite",
+                    "fixture_id": 1629913
+                },
+                {
+                    "home": "Gaziantep FK",
+                    "away": "Fenerbahçe",
+                    "pick": "Away Win",
+                    "pick_code": "2",
+                    "market": "1x2",
+                    "odds": "1.55",
+                    "confidence": 65,
+                    "league": "Süper Lig",
+                    "fixture_id": 1584408
+                },
+                {
+                    "home": "Chicago Fire",
+                    "away": "New England Revolution",
+                    "pick": "Over 2.5 Goals",
+                    "pick_code": "O2.5",
+                    "market": "over_under",
+                    "odds": "1.44",
+                    "confidence": 62,
+                    "league": "Major League Soccer",
+                    "fixture_id": 1490479
+                },
+                {
+                    "home": "Niger Tornadoes",
+                    "away": "Plateau United",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.42",
+                    "confidence": 73,
+                    "league": "NPFL",
+                    "fixture_id": 1628497
+                },
+                {
+                    "home": "Sirius",
+                    "away": "Degerfors IF",
+                    "pick": "Home Win",
+                    "pick_code": "1",
+                    "market": "1x2",
+                    "odds": "1.40",
+                    "confidence": 80,
+                    "league": "Allsvenskan",
+                    "fixture_id": 1494280
+                }
+            ]
+        }
+    ]
+}

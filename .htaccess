@@ -1,0 +1,124 @@
+# ═══════════════════════════════════════════════
+# AllJackpotPredictions — .htaccess (Apache / LiteSpeed)
+#
+# Local PHP built-in server (Bao-style front controller — any port):
+#   ./serve 5001
+#   php -S 127.0.0.1:5001 -t . router.php
+# Do NOT use bare `php -S localhost:PORT` — clean URLs need router.php.
+# Avoid port 5000 on macOS (AirPlay / Control Center often owns it).
+# ═══════════════════════════════════════════════
+
+Options -Indexes
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Page API (Show More / JSON): /api/{page-key}
+    RewriteRule ^api/([a-z0-9\-]+)/?$ api/index.php [L,QSA]
+
+    # Legacy TipOracle slug → Jackpot Picks hub
+    RewriteRule ^oracle-picks-today/?$ /jackpot-picks-today [R=301,L]
+
+    # Jackpot detail pages: /jackpots/{slug}
+    # SEO files live in /jackpot-pages/ (not /jackpots/) so the URL path is not a real directory.
+    RewriteRule ^jackpots/?$ /jackpot-picks-today [R=302,L]
+    RewriteCond %{DOCUMENT_ROOT}/jackpot-pages/$1.php -f
+    RewriteRule ^jackpots/([a-z0-9\-]+)/?$ /jackpot-pages/$1.php [L,QSA]
+    RewriteRule ^jackpots/([a-z0-9\-]+)/?$ /jackpot-predictions.php?slug=$1 [L,QSA]
+
+    # Legacy /jackpot-predictions → /jackpots
+    RewriteRule ^jackpot-predictions/?$ /jackpot-picks-today [R=301,L]
+    RewriteRule ^jackpot-predictions/([a-z0-9\-]+)/?$ /jackpots/$1 [R=301,L]
+
+    # Only force www/HTTPS on the live production host (skip localhost)
+    RewriteCond %{HTTP_HOST} ^(www\.)?alljackpotpredictions\.com$ [NC]
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    RewriteCond %{HTTP_HOST} ^(www\.)?alljackpotpredictions\.com$ [NC]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # /page.php → /page
+    RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+    RewriteRule ^ /%1 [R=301,L]
+
+    RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+    RewriteRule ^ /%1 [R=301,L]
+
+    # Drop trailing slash (except root / directories)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^(.+)/$
+    RewriteRule ^ %1 [R=301,L]
+
+    # Clean URL → .php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^.]+)$ $1.php [L]
+
+    # Clean URL → .html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^([^.]+)$ $1.html [L]
+
+    # Block hidden files
+    RewriteRule (^|/)\.(?!well-known) - [F,L]
+</IfModule>
+
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+<IfModule mod_mime.c>
+    AddType text/html                    .html .htm
+    AddType text/css                     .css
+    AddType application/javascript       .js
+    AddType image/svg+xml                .svg
+    AddType application/json             .json
+    AddType application/xml              .xml
+    AddType image/webp                   .webp
+    AddType font/woff2                   .woff2
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html              "access plus 1 hour"
+    ExpiresByType text/css               "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/svg+xml          "access plus 1 month"
+    ExpiresByType image/webp             "access plus 1 month"
+    ExpiresByType image/png              "access plus 1 month"
+    ExpiresByType image/jpeg             "access plus 1 month"
+    ExpiresByType font/woff2             "access plus 6 months"
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header unset X-Powered-By
+    <FilesMatch "\.(php|html)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "Sat, 01 Jan 2000 00:00:00 GMT"
+    </FilesMatch>
+</IfModule>
+
+<FilesMatch "\.(htaccess|htpasswd|env|log|sh|bak|sql)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule LiteSpeed>
+    CacheLookup off
+</IfModule>

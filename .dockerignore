@@ -1,0 +1,20 @@
+# Dependencies installed in-image
+/vendor
+
+# Secrets — never bake into the image (k3s injects via envSecretName / extraEnv)
+.env
+.env.*
+!.env.example
+
+# VCS / CI / local junk
+.git
+.github
+.gitignore
+.DS_Store
+*.md
+*.log
+agent-transcripts
+
+# Local caches (created at runtime)
+/storage/cache
+/storage/framework/cache/data

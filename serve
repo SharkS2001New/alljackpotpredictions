@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Local server — Bao-style: always use front-controller + document root.
+# Usage: ./serve [port]
+# Example: ./serve 5001
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+cd "$ROOT"
+PORT="${1:-5001}"
+
+# Prefer IPv4 loopback so http://127.0.0.1:PORT works (localhost → ::1 alone often fails).
+# -t sets the docroot for static files when the router returns false.
+echo "AllJackpotPredictions → http://127.0.0.1:${PORT}"
+echo "Front controller: router.php  (do not use bare php -S without this)"
+if [[ "$PORT" == "5000" ]]; then
+  echo "Note: macOS AirPlay often occupies :5000 — if bind fails, use ./serve 5001"
+fi
+exec php -S "127.0.0.1:${PORT}" -t "$ROOT" "$ROOT/router.php"
