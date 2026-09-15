@@ -32,14 +32,11 @@ Options -MultiViews
     RewriteRule ^jackpot-predictions/?$ /jackpot-picks-today [R=301,L]
     RewriteRule ^jackpot-predictions/([a-z0-9\-]+)/?$ /jackpots/$1 [R=301,L]
 
-    # Only force www/HTTPS on the live production host (skip localhost)
-    RewriteCond %{HTTP_HOST} ^(www\.)?alljackpotpredictions\.com$ [NC]
-    RewriteCond %{HTTP_HOST} !^www\. [NC]
-    RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-    RewriteCond %{HTTP_HOST} ^(www\.)?alljackpotpredictions\.com$ [NC]
-    RewriteCond %{HTTPS} off
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    # Apex → www only. Do NOT force HTTPS here: Traefik terminates TLS and
+    # proxies HTTP to Apache, so %{HTTPS} off would cause ERR_TOO_MANY_REDIRECTS.
+    # (Same pattern as baopredictions/public/.htaccess)
+    RewriteCond %{HTTP_HOST} ^alljackpotpredictions\.com$ [NC]
+    RewriteRule ^ https://www.alljackpotpredictions.com%{REQUEST_URI} [R=301,L]
 
     # /page.php → /page
     RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
