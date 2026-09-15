@@ -43,7 +43,7 @@
         {
           "@type": "Question",
           "name": "Who runs AllJackpotPredictions?",
-          "acceptedAnswer": { "@type": "Answer", "text": "AllJackpotPredictions is run by a team of professional football analysts with backgrounds in football statistics, betting market analysis and sports journalism. All tips are analyst-reviewed before publication." }
+          "acceptedAnswer": { "@type": "Answer", "text": "AllJackpotPredictions is run by analysts James Maina and Stephen Karuku. All tips are reviewed before publication." }
         },
         {
           "@type": "Question",
@@ -551,7 +551,7 @@
           Tipster sites should be judged on one thing: what they publish before the game,
           not what they claim after it.
         </p>
-        <div class="abt-quote-attr"><b>James Hargreaves</b> · Lead Analyst, AllJackpotPredictions</div>
+        <div class="abt-quote-attr"><b>James Maina</b> · Lead Analyst, AllJackpotPredictions</div>
       </div>
     </div>
 
@@ -657,11 +657,12 @@
       <div class="abt-tl-right">
         <div class="abt-tl-heading">The frustration that started it all</div>
         <p class="abt-tl-body">
-          James Hargreaves and Daniel Osei had spent years working in football data analytics —
-          James in sports journalism, Daniel in statistical modelling for a sports data company.
-          Both were frustrated by the same thing: tipster sites that quoted win rates that were
-          impossible to verify, or that disappeared their losing tips. They started tracking a dozen
-          popular tipsters manually to audit their real records. The results were damning.
+          James Maina and Stephen Karuku had spent years following East African jackpot culture
+          and European league boards — James focusing on match research and slip building,
+          Stephen on form tables, odds movement and sheet structure. Both were frustrated by the
+          same thing: tipster sites that quoted win rates that were impossible to verify, or that
+          disappeared their losing tips. They started logging their own picks publicly — before
+          kick-off, no edits — to see what a honest record actually looked like.
         </p>
       </div>
     </div>
@@ -693,11 +694,12 @@
       <div class="abt-tl-right">
         <div class="abt-tl-heading">AllJackpotPredictions launches publicly</div>
         <p class="abt-tl-body">
-          With a proper site, a methodology codified into six clear stages and a third analyst —
-          Sofia Reyes, joining from a Spanish football statistics consultancy — AllJackpotPredictions went
-          public. The Jackpot Picks label was introduced to distinguish the highest-confidence
-          daily selections, capped at exactly three per day. The Track Record page has been
-          live and unedited since launch day.
+          With a proper site, a methodology built around jackpot sheets and daily accumulators,
+          and both analysts signing tips before publication, AllJackpotPredictions went public.
+          The Jackpot Picks label was introduced to distinguish the highest-confidence daily
+          selections. Operator jackpot pages — SportPesa, Betika, Mozzart, Odibet and more —
+          became a core part of the board. The Track Record page has been live and unedited
+          since launch day.
         </p>
       </div>
     </div>
@@ -710,10 +712,10 @@
       <div class="abt-tl-right">
         <div class="abt-tl-heading">48+ tips daily across all major leagues</div>
         <p class="abt-tl-body">
-          AllJackpotPredictions now covers every major European league — Premier League, La Liga, Bundesliga,
-          Serie A, Ligue 1, Champions League and Europa League — plus selected South American and
-          international fixtures. The six-stage methodology remains unchanged. The team has grown
-          to five analysts. The tips are still free.
+          AllJackpotPredictions now covers major European leagues — Premier League, La Liga, Bundesliga,
+          Serie A, Ligue 1, Champions League and Europa League — plus the jackpot sheets bettors
+          actually fill. The research process remains the same. The desk is still led by
+          James Maina and Stephen Karuku. The tips are still free.
         </p>
       </div>
     </div>
@@ -734,53 +736,34 @@
   <div class="abt-team">
 
     <div class="abt-bio-card">
-      <div class="abt-bio-avatar navy">JH</div>
-      <div class="abt-bio-role">Lead Analyst &amp; Co-Founder</div>
-      <div class="abt-bio-name">James Hargreaves</div>
+      <div class="abt-bio-avatar navy">JM</div>
+      <div class="abt-bio-role">Lead Analyst</div>
+      <div class="abt-bio-name">James Maina</div>
       <p class="abt-bio-body">
-        James leads the Jackpot Pick selection and manages the senior analyst review process.
-        With a background in sports journalism and 9 years of football statistics work, he
-        oversees the methodology and all editorial decisions. He signs off on every Jackpot Pick
-        personally before publication.
+        James leads Jackpot Pick selection and the final review before tips go live.
+        He focuses on match context, motivation and whether a lean belongs on a jackpot
+        sheet or a short daily acca. Every Jackpot Pick receives his sign-off before publication.
       </p>
       <div class="abt-bio-tags">
-        <span class="abt-bio-tag">Premier League</span>
-        <span class="abt-bio-tag">Champions League</span>
-        <span class="abt-bio-tag">xG Modelling</span>
+        <span class="abt-bio-tag">Jackpot Picks</span>
+        <span class="abt-bio-tag">1X2 Anchors</span>
+        <span class="abt-bio-tag">Match Context</span>
       </div>
     </div>
 
     <div class="abt-bio-card">
-      <div class="abt-bio-avatar green">DO</div>
-      <div class="abt-bio-role">Head of Data &amp; Co-Founder</div>
-      <div class="abt-bio-name">Daniel Osei</div>
+      <div class="abt-bio-avatar green">SK</div>
+      <div class="abt-bio-role">Analyst</div>
+      <div class="abt-bio-name">Stephen Karuku</div>
       <p class="abt-bio-body">
-        Daniel built and maintains the statistical models underpinning every AllJackpotPredictions prediction.
-        His background is in quantitative sports analytics — he spent four years building
-        probability models for a European sports data company before co-founding AllJackpotPredictions.
-        He owns the xG pipeline and market value check stage.
+        Stephen handles form tables, goals markets and sheet structure — BTTS, Over/Under
+        and supporting legs that sit behind bankers. He cross-checks odds movement and
+        squad news so published tips stay honest to the data on the day.
       </p>
       <div class="abt-bio-tags">
-        <span class="abt-bio-tag">Statistical Modelling</span>
-        <span class="abt-bio-tag">xG Pipelines</span>
-        <span class="abt-bio-tag">Odds Analysis</span>
-      </div>
-    </div>
-
-    <div class="abt-bio-card">
-      <div class="abt-bio-avatar pink">SR</div>
-      <div class="abt-bio-role">Senior Analyst — European Football</div>
-      <div class="abt-bio-name">Sofia Reyes</div>
-      <p class="abt-bio-body">
-        Sofia specialises in Spanish and Italian football, covering La Liga and Serie A tip
-        selection in full. She joined AllJackpotPredictions from a Barcelona-based football statistics
-        consultancy in 2022. Her work covers Stage 2 context analysis and squad news
-        verification for all southern European fixtures.
-      </p>
-      <div class="abt-bio-tags">
-        <span class="abt-bio-tag">La Liga</span>
-        <span class="abt-bio-tag">Serie A</span>
-        <span class="abt-bio-tag">Context Analysis</span>
+        <span class="abt-bio-tag">Goals Markets</span>
+        <span class="abt-bio-tag">Form &amp; Odds</span>
+        <span class="abt-bio-tag">Acca Structure</span>
       </div>
     </div>
 
@@ -890,7 +873,7 @@
 
     <div class="abt-faq-item">
       <div class="abt-faq-q">Who runs AllJackpotPredictions?</div>
-      <p class="abt-faq-a">AllJackpotPredictions is run by James Hargreaves and Daniel Osei, who co-founded the site, along with a team of three professional football analysts. Every tip is analyst-reviewed before publication. See the Team section above for full bios.</p>
+      <p class="abt-faq-a">AllJackpotPredictions is run by analysts <strong>James Maina</strong> and <strong>Stephen Karuku</strong>. Every tip is reviewed before publication. See the Team section above for bios.</p>
     </div>
 
     <div class="abt-faq-item">
