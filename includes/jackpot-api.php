@@ -10,7 +10,7 @@ if (!defined('AJP_JACKPOT_API_BASE')) {
     define('AJP_JACKPOT_API_BASE', 'https://api.pitchpredictions.com/api');
     define('AJP_JACKPOT_API_FALLBACK', 'https://api.alljackpotpredictions.com/api');
     define('AJP_JACKPOT_API_KEY', getenv('JACKPOT_API_KEY') ?: 'jp_shared_8KxQm2NvR9pLwT4yHcF6uA1eZbD3sG7j');
-    define('AJP_JACKPOT_ORIGIN', getenv('JACKPOT_API_ORIGIN') ?: 'https://www.pitchpredictions.com');
+    define('AJP_JACKPOT_ORIGIN', getenv('JACKPOT_API_ORIGIN') ?: 'https://www.alljackpotpredictions.com');
 }
 
 /** Catalog of all jackpot slugs (active + historical). */
