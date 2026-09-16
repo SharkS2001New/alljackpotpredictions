@@ -32,7 +32,12 @@ final class StatsService
         // Hero "Predictions today" + sidebar badges use full publishable counts (not the
         // first-page display cap). Settled track record stays 1X2 via fetchSettled*.
         $track = $this->trackRecord(90, 800);
-        $today = $this->todayPerformanceSummary($this->countPageGames('football-predictions-today'));
+        $todayCount = $this->countFromCachedPage('football-predictions-today');
+        if ($todayCount === null) {
+            // Avoid a full listGames rebuild just for a badge integer.
+            $todayCount = $this->countTodayBoardRough();
+        }
+        $today = $this->todayPerformanceSummary($todayCount);
         $yesterday = $this->yesterdayPerformance();
         $recent = $this->recentPerformance(3);
         $markets = $this->marketCountsFromPool([]);
@@ -131,21 +136,8 @@ final class StatsService
      */
     public function yesterdayPerformance(): array
     {
-        $games = $this->listPageGames('football-predictions-yesterday', [
-            'day' => 'yesterday',
-            'limit' => 80,
-            'market' => '1x2',
-            'status' => 'FT',
-            'order' => 'kickoff_asc',
-        ]);
-
-        $settled = [];
-        foreach ($games as $g) {
-            if ($g['won'] === null) {
-                continue;
-            }
-            $settled[] = $g;
-        }
+        $date = $this->games->resolveDate(['day' => 'yesterday']);
+        $settled = $this->fetchSettled1x2ForDate($date);
 
         // Newest kickoff first → streak is consecutive wins ending with the latest tip.
         usort($settled, static function (array $a, array $b): int {
@@ -154,12 +146,12 @@ final class StatsService
             if ($ka !== $kb) {
                 return $kb <=> $ka;
             }
-            return ((int) ($b['fixture_id'] ?? 0)) <=> ((int) ($a['fixture_id'] ?? 0));
+            return 0;
         });
 
         $streak = 0;
         foreach ($settled as $g) {
-            if ($g['won'] === true) {
+            if (($g['won'] ?? null) === true) {
                 $streak++;
             } else {
                 break;
@@ -168,15 +160,15 @@ final class StatsService
 
         $wins = 0;
         foreach ($settled as $g) {
-            if ($g['won'] === true) {
+            if (($g['won'] ?? null) === true) {
                 $wins++;
             }
         }
         $total = count($settled);
 
         return [
-            'date' => $this->games->resolveDate(['day' => 'yesterday']),
-            'predictions' => count($games),
+            'date' => $date,
+            'predictions' => $total,
             'settled_total' => $total,
             'settled_won' => $wins,
             'win_streak' => $streak,
@@ -206,7 +198,11 @@ final class StatsService
      */
     public function todayPerformance(): array
     {
-        return $this->todayPerformanceSummary($this->countPageGames('football-predictions-today'));
+        $count = $this->countFromCachedPage('football-predictions-today');
+        if ($count === null) {
+            $count = $this->countTodayBoardRough();
+        }
+        return $this->todayPerformanceSummary($count);
     }
 
     /**
@@ -274,15 +270,7 @@ final class StatsService
             return $this->countPageGames($key);
         };
 
-        $accaGames = $this->listPageGames('accumulator-tips', [
-            'day' => 'today',
-            'limit' => 200,
-            'market' => 'best',
-            'min_confidence' => 58,
-            'order' => 'confidence_desc',
-            'upcoming_only' => true,
-        ]);
-        $tickets = $this->games->buildAccumulators($accaGames);
+        $accaCount = $this->countFromCachedPage('accumulator-tips') ?? 0;
 
         return [
             '1x2-predictions' => $pageCount('1x2-predictions'),
@@ -294,7 +282,7 @@ final class StatsService
             'must-win-teams-today' => $pageCount('must-win-teams-today'),
             'sure-bets-today' => $pageCount('sure-bets-today'),
             'betnumbers-tips' => $pageCount('betnumbers-tips'),
-            'accumulator-tips' => count($tickets),
+            'accumulator-tips' => $accaCount,
         ];
     }
 
@@ -307,18 +295,58 @@ final class StatsService
     }
 
     /**
-     * Publishable tip total for a page key (ignores the public display cap).
+     * Publishable tip total for a page key.
+     * Never rebuilds full market boards here — use warm page cache (or 0 on cold miss).
      */
     private function countPageGames(string $pageKey): int
     {
-        $pages = require dirname(__DIR__, 2) . '/config/api-pages.php';
-        $def = is_array($pages[$pageKey] ?? null) ? $pages[$pageKey] : [];
-        $filters = $def;
-        unset($filters['title'], $filters['extra']);
-        // High ceiling so sidebar / hero counts reflect the full slate, not page size.
-        $filters['limit'] = 500;
+        return $this->countFromCachedPage($pageKey) ?? 0;
+    }
 
-        return count($this->games->listGames($filters));
+    /**
+     * Rough today tip count without mapping full boards (fixtures with model probs).
+     */
+    private function countTodayBoardRough(): int
+    {
+        $today = DateTimeHelper::siteToday();
+        $fromLocal = new \DateTimeImmutable($today . ' 00:00:00', new \DateTimeZone(DateTimeHelper::SITE_TZ));
+        $toLocalExclusive = $fromLocal->modify('+1 day');
+        $stmt = $this->db->prepare(
+            "SELECT COUNT(*) FROM fixtures f
+             INNER JOIN predictions_computation pc ON pc.fixture_id = f.fixture_id
+             WHERE f.date >= :date_from AND f.date < :date_to
+               AND (
+                 pc.percent_pred_home IS NOT NULL
+                 OR pc.percent_pred_draw IS NOT NULL
+                 OR pc.percent_pred_away IS NOT NULL
+               )"
+        );
+        $stmt->execute([
+            ':date_from' => $fromLocal->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d H:i:s'),
+            ':date_to' => $toLocalExclusive->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d H:i:s'),
+        ]);
+        return (int) $stmt->fetchColumn();
+    }
+
+    /**
+     * @return int|null
+     */
+    private function countFromCachedPage(string $pageKey): ?int
+    {
+        $cached = \App\Support\Cache::getCachedJsonPayload($pageKey, true);
+        if (!is_array($cached) || ($cached['ok'] ?? false) !== true) {
+            return null;
+        }
+        if (isset($cached['accumulators']) && is_array($cached['accumulators'])) {
+            return count($cached['accumulators']);
+        }
+        if (isset($cached['count']) && is_numeric($cached['count'])) {
+            return (int) $cached['count'];
+        }
+        if (isset($cached['games']) && is_array($cached['games'])) {
+            return count($cached['games']);
+        }
+        return null;
     }
 
     /**
@@ -365,6 +393,11 @@ final class StatsService
         $lookbackDays = max(1, min(365, $lookbackDays));
         $limit = max(50, min(5000, $limit));
 
+        $fromLocal = (new \DateTimeImmutable('today', new \DateTimeZone(DateTimeHelper::SITE_TZ)))
+            ->modify('-' . $lookbackDays . ' days')
+            ->setTime(0, 0, 0);
+        $dateFrom = $fromLocal->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d H:i:s');
+
         $sql = <<<SQL
 SELECT
   f.date AS kickoff,
@@ -373,24 +406,27 @@ SELECT
   pc.percent_pred_home,
   pc.percent_pred_draw,
   pc.percent_pred_away,
-  (
-    SELECT MAX(o2.bets_home) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_home > 1.01
-  ) AS best_home,
-  (
-    SELECT MAX(o2.bets_draw) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_draw > 1.01
-  ) AS best_draw,
-  (
-    SELECT MAX(o2.bets_away) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_away > 1.01
-  ) AS best_away
+  o.bets_home AS best_home,
+  o.bets_draw AS best_draw,
+  o.bets_away AS best_away
 FROM fixtures f
 INNER JOIN predictions_computation pc ON pc.fixture_id = f.fixture_id
+LEFT JOIN odds o ON o.id = (
+  SELECT o2.id FROM odds o2
+  WHERE o2.fixture_id = f.fixture_id
+  ORDER BY
+    CASE o2.bookmaker_name
+      WHEN 'Bet365' THEN 0
+      WHEN '10Bet' THEN 1
+      WHEN 'William Hill' THEN 2
+      ELSE 9 END,
+    o2.id ASC
+  LIMIT 1
+)
 WHERE f.status_short = 'FT'
   AND f.goals_home IS NOT NULL
   AND f.goals_away IS NOT NULL
-  AND DATE(f.date) >= DATE_SUB(CURDATE(), INTERVAL {$lookbackDays} DAY)
+  AND f.date >= :date_from
   AND (
     pc.percent_pred_home IS NOT NULL
     OR pc.percent_pred_draw IS NOT NULL
@@ -400,8 +436,9 @@ ORDER BY f.date DESC, f.fixture_id DESC
 LIMIT {$limit}
 SQL;
 
-        $stmt = $this->db->query($sql);
-        $rows = $stmt ? $stmt->fetchAll() : [];
+        $stmt = $this->db->prepare($sql);
+        $stmt->execute([':date_from' => $dateFrom]);
+        $rows = $stmt->fetchAll();
         return $this->mapSettledRows($rows);
     }
 
@@ -410,6 +447,11 @@ SQL;
      */
     private function fetchSettled1x2ForDate(string $date): array
     {
+        $fromLocal = new \DateTimeImmutable($date . ' 00:00:00', new \DateTimeZone(DateTimeHelper::SITE_TZ));
+        $toLocalExclusive = $fromLocal->modify('+1 day');
+        $dateFrom = $fromLocal->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d H:i:s');
+        $dateTo = $toLocalExclusive->setTimezone(new \DateTimeZone('UTC'))->format('Y-m-d H:i:s');
+
         $sql = <<<SQL
 SELECT
   f.date AS kickoff,
@@ -418,24 +460,27 @@ SELECT
   pc.percent_pred_home,
   pc.percent_pred_draw,
   pc.percent_pred_away,
-  (
-    SELECT MAX(o2.bets_home) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_home > 1.01
-  ) AS best_home,
-  (
-    SELECT MAX(o2.bets_draw) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_draw > 1.01
-  ) AS best_draw,
-  (
-    SELECT MAX(o2.bets_away) FROM odds o2
-    WHERE o2.fixture_id = f.fixture_id AND o2.bets_away > 1.01
-  ) AS best_away
+  o.bets_home AS best_home,
+  o.bets_draw AS best_draw,
+  o.bets_away AS best_away
 FROM fixtures f
 INNER JOIN predictions_computation pc ON pc.fixture_id = f.fixture_id
+LEFT JOIN odds o ON o.id = (
+  SELECT o2.id FROM odds o2
+  WHERE o2.fixture_id = f.fixture_id
+  ORDER BY
+    CASE o2.bookmaker_name
+      WHEN 'Bet365' THEN 0
+      WHEN '10Bet' THEN 1
+      WHEN 'William Hill' THEN 2
+      ELSE 9 END,
+    o2.id ASC
+  LIMIT 1
+)
 WHERE f.status_short = 'FT'
   AND f.goals_home IS NOT NULL
   AND f.goals_away IS NOT NULL
-  AND DATE(f.date) = :d
+  AND f.date >= :date_from AND f.date < :date_to
   AND (
     pc.percent_pred_home IS NOT NULL
     OR pc.percent_pred_draw IS NOT NULL
@@ -445,7 +490,7 @@ ORDER BY f.date DESC, f.fixture_id DESC
 LIMIT 500
 SQL;
         $stmt = $this->db->prepare($sql);
-        $stmt->execute([':d' => $date]);
+        $stmt->execute([':date_from' => $dateFrom, ':date_to' => $dateTo]);
         return $this->mapSettledRows($stmt->fetchAll());
     }
 

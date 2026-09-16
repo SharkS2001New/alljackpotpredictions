@@ -90,20 +90,13 @@
   <!-- Best Accumulator Tips from API -->
   <?php
   require_once __DIR__ . '/includes/api-curl.php';
-  // Acca: prefer cache so sidebar never blocks; warm from live if empty.
+  // Acca + results: cache only — never trigger a multi-second DB rebuild from the sidebar.
   $__acca = ajp_fetch_fixtures('accumulator-tips', ['cache_only' => true]);
-  if (empty($__acca['fixtures'])) {
-      $__acca = ajp_fetch_fixtures('accumulator-tips');
-  }
-  $accumulatorTips = array_slice($__acca['fixtures'], 0, 5);
+  $accumulatorTips = array_slice($__acca['fixtures'] ?? [], 0, 5);
 
-  // Recent Results: use settled games from the results API (rolling week).
   $__results = ajp_fetch_fixtures('results', ['cache_only' => true]);
-  if (empty($__results['fixtures'])) {
-      $__results = ajp_fetch_fixtures('results');
-  }
   $recentResults = [];
-  foreach ($__results['fixtures'] as $f) {
+  foreach ($__results['fixtures'] ?? [] as $f) {
       // Settled tips only (won true/false); skip unfinished.
       if (!array_key_exists('won', $f) || $f['won'] === null) {
           continue;

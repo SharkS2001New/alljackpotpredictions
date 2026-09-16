@@ -7,6 +7,29 @@ if (!headers_sent()) {
     header('Expires: Sat, 01 Jan 2000 00:00:00 GMT');
     header('X-LiteSpeed-Cache-Control: no-cache'); // harmless if host isn't LiteSpeed
 }
+
+$__navPath = parse_url((string) ($_SERVER['REQUEST_URI'] ?? '/'), PHP_URL_PATH);
+$__navPath = is_string($__navPath) ? rtrim(urldecode($__navPath), '/') : '';
+if ($__navPath === '' || $__navPath === '/index.php') {
+    $__navPath = '/';
+}
+
+$__navIs = static function (string ...$prefixes) use ($__navPath): bool {
+    foreach ($prefixes as $p) {
+        $p = rtrim($p, '/');
+        if ($p === '') {
+            continue;
+        }
+        if ($__navPath === $p || str_starts_with($__navPath, $p . '/')) {
+            return true;
+        }
+    }
+    return false;
+};
+
+$__navClass = static function (string $base, bool $on): string {
+    return $on ? trim($base . ' active') : $base;
+};
 ?>
 
 <!-- MOBILE DRAWER -->
@@ -18,32 +41,30 @@ if (!headers_sent()) {
     <label for="mob-ck" class="mob-close">✕</label>
   </div>
   <nav class="mob-nav">
-    <div class="mob-section">Predictions</div>
-    <a href="/predictions-today" class="on">Today's Tips</a>
-    <a href="/predictions-tomorrow">Tomorrow</a>
-    <a href="/predictions-weekend">Weekend Picks</a>
-    <a href="/accumulator-tips">Accumulators</a>
+    <div class="mob-section">Jackpot desk</div>
+    <a href="/jackpot-picks-today" class="jackpot<?= $__navIs('/jackpot-picks-today', '/jackpot-predictions') || str_contains($__navPath, 'jackpot') ? ' on' : '' ?>">All Jackpots</a>
+    <a href="/must-win-teams-today" class="fire<?= $__navIs('/must-win-teams-today', '/home-teams-to-win-today', '/away-teams-to-win-today', '/teams-that-will-never-lose', '/most-trusted-teams-to-win') ? ' on' : '' ?>">Banker Shortlist</a>
+    <a href="/jackpots/sportpesa-mega-jackpot-predictions"<?= $__navIs('/jackpots/sportpesa-mega-jackpot-predictions') ? ' class="on"' : '' ?>>SportPesa Mega</a>
+    <a href="/jackpots/betika-midweek-jackpot-predictions"<?= $__navIs('/jackpots/betika-midweek-jackpot-predictions') ? ' class="on"' : '' ?>>Betika Midweek</a>
     <div class="mob-divider"></div>
-    <div class="mob-section">Featured</div>
-    <a href="/must-win-teams-today" class="fire">⚡ Must Win Teams</a>
-    <a href="/jackpot-picks-today" class="jackpot">◈ Jackpot Picks</a>
+    <div class="mob-section">Slip builders</div>
+    <a href="/predictions-today"<?= $__navIs('/predictions-today') || $__navPath === '/' ? ' class="on"' : '' ?>>Today's Board</a>
+    <a href="/predictions-tomorrow"<?= $__navIs('/predictions-tomorrow') ? ' class="on"' : '' ?>>Tomorrow's Board</a>
+    <a href="/predictions-weekend"<?= $__navIs('/predictions-weekend') ? ' class="on"' : '' ?>>Weekend Board</a>
+    <a href="/accumulator-tips"<?= $__navIs('/accumulator-tips') ? ' class="on"' : '' ?>>Build Acca</a>
     <div class="mob-divider"></div>
     <div class="mob-section">Markets</div>
-    <a href="/1x2-prediction">1X2 Match Result</a>
-    <a href="/btts-tips">BTTS Tips</a>
-    <a href="/over-2-5-goals">Over 2.5 Goals</a>
-    <a href="/over-1-5-goals">Over 1.5 Goals</a>
-    <a href="/over-3-5-goals">Over 3.5 Goals</a>
-    <a href="/under-2-5-goals">Under 2.5 Goals</a>
-    <a href="/under-3-5-goals">Under 3.5 Goals</a>
-    <a href="/correct-score-predictions">Correct Score</a>
-    <a href="/double-chance-tips">Double Chance</a>
-    <a href="/half-time-predictions">Half Time</a>
-    <a href="/ht-ft-predictions">Half Time / Full Time</a>
+    <a href="/1x2-prediction"<?= $__navIs('/1x2-prediction') ? ' class="on"' : '' ?>>Match Result (1X2)</a>
+    <a href="/btts-tips"<?= $__navIs('/btts-tips') ? ' class="on"' : '' ?>>BTTS Legs</a>
+    <a href="/over-2-5-goals"<?= $__navIs('/over-2-5-goals', '/over-1-5-goals', '/over-3-5-goals', '/under-2-5-goals', '/under-3-5-goals') ? ' class="on"' : '' ?>>Goals O/U</a>
+    <a href="/double-chance-tips"<?= $__navIs('/double-chance-tips') ? ' class="on"' : '' ?>>Cover Legs (DC)</a>
+    <a href="/correct-score-predictions"<?= $__navIs('/correct-score-predictions') ? ' class="on"' : '' ?>>Correct Score</a>
+    <a href="/half-time-predictions"<?= $__navIs('/half-time-predictions') ? ' class="on"' : '' ?>>Half Time</a>
+    <a href="/ht-ft-predictions"<?= $__navIs('/ht-ft-predictions') ? ' class="on"' : '' ?>>HT / FT</a>
     <div class="mob-divider"></div>
-    <a href="/track-record">Track Record</a>
-    <a href="/about">About Us</a>
-    <a href="/responsible-gambling">Responsible Gambling</a>
+    <a href="/track-record"<?= $__navIs('/track-record') ? ' class="on"' : '' ?>>Results Log</a>
+    <a href="/about"<?= $__navIs('/about') ? ' class="on"' : '' ?>>About the Desk</a>
+    <a href="/responsible-gambling"<?= $__navIs('/responsible-gambling') ? ' class="on"' : '' ?>>Responsible Gambling</a>
   </nav>
 </div>
 
@@ -67,7 +88,6 @@ if (!headers_sent()) {
 <header class="nav">
   <!-- Top row: logo + controls -->
   <div class="nav-top">
-    <!-- ★ NEW SVG LOGO ★ -->
     <a class="nav-logo" href="/">
       <div class="nav-logo-mark">
         <img src="/img/logo-mark.svg" alt="" width="36" height="36" />
@@ -85,22 +105,18 @@ if (!headers_sent()) {
       </label>
     </div>
   </div>
-  <!-- Bottom row: navigation links -->
-  <nav class="nav-links-row">
-    <a class="nav-a active" href="/predictions-today">Today</a>
-    <a class="nav-a" href="/predictions-tomorrow">Tomorrow</a>
-    <a class="nav-a" href="/predictions-weekend">Weekend</a>
-    <a class="nav-a" href="/accumulator-tips">Accumulators</a>
-    <a class="nav-a fire" href="/must-win-teams-today">⚡ Must Win</a>
-    <a class="nav-a jackpot" href="/jackpot-picks-today">◈ Jackpot Picks</a>
-    <a class="nav-a" href="/btts-tips">BTTS</a>
-    <a class="nav-a" href="/correct-score-predictions">Correct Score</a>
-    <a class="nav-a" href="/over-2-5-goals">Over / Under</a>
-    <a class="nav-a" href="/1x2-prediction">1X2</a>
-    <a class="nav-a" href="/double-chance-tips">Double Chance</a>
-    <a class="nav-a" href="/half-time-predictions">Half Time</a>
-    <a class="nav-a" href="/ht-ft-predictions">Half Time / Full Time</a>
-    <a class="nav-a" href="/track-record">Track Record</a>
+  <!-- Bottom row: jackpot-first navigation -->
+  <nav class="nav-links-row" aria-label="Primary">
+    <a class="<?= htmlspecialchars($__navClass('nav-a jackpot', $__navIs('/jackpot-picks-today', '/jackpot-predictions') || str_contains($__navPath, 'jackpot'))) ?>" href="/jackpot-picks-today">Jackpots</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a fire', $__navIs('/must-win-teams-today', '/home-teams-to-win-today', '/away-teams-to-win-today', '/teams-that-will-never-lose', '/most-trusted-teams-to-win'))) ?>" href="/must-win-teams-today">Bankers</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/predictions-today') || $__navPath === '/')) ?>" href="/predictions-today">Today's Board</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/accumulator-tips'))) ?>" href="/accumulator-tips">Accas</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/1x2-prediction'))) ?>" href="/1x2-prediction">Match Result</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/over-2-5-goals', '/over-1-5-goals', '/over-3-5-goals', '/under-2-5-goals', '/under-3-5-goals'))) ?>" href="/over-2-5-goals">Goals O/U</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/btts-tips'))) ?>" href="/btts-tips">BTTS</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/double-chance-tips'))) ?>" href="/double-chance-tips">Cover Legs</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/predictions-weekend'))) ?>" href="/predictions-weekend">Weekend</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/track-record'))) ?>" href="/track-record">Results</a>
   </nav>
 </header>
 
@@ -143,28 +159,28 @@ if (!headers_sent()) {
     }
     ?>
     <div class="ticker-stat">
-      <span class="ts-label">Win Rate</span>
+      <span class="ts-label">Hit Rate</span>
       <span class="ts-value <?= $winRateClass ?>"><?= $winRate ?></span>
     </div>
     <div class="ticker-stat">
-      <span class="ts-label">Tips Today</span>
+      <span class="ts-label">Board Today</span>
       <span class="ts-value"><?= $tipsToday ?></span>
     </div>
     <div class="ticker-stat">
-      <span class="ts-label">Win Streak</span>
+      <span class="ts-label">Hit Streak</span>
       <span class="ts-value <?= $winStreakClass ?>"><?= $winStreak ?></span>
     </div>
     <div class="ticker-stat">
-      <span class="ts-label">Monthly Yield</span>
+      <span class="ts-label">Month ROI</span>
       <span class="ts-value <?= $monthlyYieldClass ?>"><?= $monthlyYield ?></span>
     </div>
     <div class="ticker-stat">
-      <span class="ts-label">Tips This Month</span>
+      <span class="ts-label">Settled</span>
       <span class="ts-value"><?= $tipsThisMonth ?></span>
     </div>
     <div class="ticker-live-badge">
       <span class="live-pulse"></span>
-      Live Updates
+      Desk Live
     </div>
   </div>
 </div>

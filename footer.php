@@ -26,29 +26,28 @@ if (!defined('LL_DATA_DIR')) {
 
       <nav class="ajp-ft-nav" aria-label="Footer">
         <div class="ajp-ft-group">
-          <h4>Tips</h4>
-          <a href="/predictions-today">Today</a>
-          <a href="/predictions-tomorrow">Tomorrow</a>
-          <a href="/predictions-weekend">Weekend</a>
-          <a href="/accumulator-tips">Accumulators</a>
-          <a href="/jackpot-picks-today">Jackpot Picks</a>
-          <a href="/must-win-teams-today">Must Win</a>
-          <a href="/home-teams-to-win-today">Home Teams</a>
-          <a href="/away-teams-to-win-today">Away Teams</a>
+          <h4>Jackpot desk</h4>
+          <a href="/jackpot-picks-today">All Jackpots</a>
+          <a href="/must-win-teams-today">Banker Shortlist</a>
+          <a href="/jackpots/sportpesa-mega-jackpot-predictions">SportPesa Mega</a>
+          <a href="/jackpots/betika-midweek-jackpot-predictions">Betika Midweek</a>
+          <a href="/accumulator-tips">Build Acca</a>
+          <a href="/predictions-today">Today's Board</a>
+          <a href="/predictions-weekend">Weekend Board</a>
         </div>
         <div class="ajp-ft-group">
           <h4>Markets</h4>
-          <a href="/1x2-prediction">1X2</a>
-          <a href="/btts-tips">BTTS</a>
-          <a href="/over-2-5-goals">Over 2.5</a>
+          <a href="/1x2-prediction">Match Result</a>
+          <a href="/btts-tips">BTTS Legs</a>
+          <a href="/over-2-5-goals">Goals O/U</a>
           <a href="/under-2-5-goals">Under 2.5</a>
+          <a href="/double-chance-tips">Cover Legs</a>
           <a href="/correct-score-predictions">Correct Score</a>
-          <a href="/double-chance-tips">Double Chance</a>
         </div>
         <div class="ajp-ft-group">
-          <h4>Company</h4>
+          <h4>Desk</h4>
           <a href="/how-it-works">How it works</a>
-          <a href="/track-record">Track record</a>
+          <a href="/track-record">Results Log</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
           <a href="/partners">Partners</a>

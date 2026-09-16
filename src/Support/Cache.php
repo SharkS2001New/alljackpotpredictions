@@ -27,6 +27,8 @@ final class Cache
     private static bool $redisTried = false;
     private static bool $redisOk = false;
     private static ?string $activeDriver = null;
+    /** Unix time when we may retry Redis after a failure (0 = no cooldown). */
+    private static int $redisRetryAfter = 0;
 
     private function __construct()
     {
@@ -141,11 +143,11 @@ final class Cache
         return self::envTtl('CACHE_TTL_JACKPOT') ?? (10 * 60);
     }
 
-    /** Stats board — short refresh (not a full-day cache). */
+    /** Stats board — long TTL; ticker numbers change slowly (warm-cache refreshes daily). */
     public static function ttlStats(): int
     {
-        // AJP: default 15m — header ticker hits this on every page.
-        return self::envTtl('CACHE_TTL_STATS') ?? (15 * 60);
+        // Default 24h — header/sidebar hit this on every page; rebuild is expensive.
+        return self::envTtl('CACHE_TTL_STATS') ?? (24 * 60 * 60);
     }
 
     /**
@@ -215,6 +217,8 @@ final class Cache
                 return null;
             } catch (Throwable $e) {
                 self::$redisOk = false;
+                self::$redisTried = true;
+                self::$redisRetryAfter = time() + 60;
                 self::$activeDriver = 'file';
                 self::logRedisFallback($e, 'get');
             }
@@ -234,6 +238,8 @@ final class Cache
                 return;
             } catch (Throwable $e) {
                 self::$redisOk = false;
+                self::$redisTried = true;
+                self::$redisRetryAfter = time() + 60;
                 self::$activeDriver = 'file';
                 self::logRedisFallback($e, 'put');
             }
@@ -249,6 +255,8 @@ final class Cache
                 $this->redisClient()?->del([$full]);
             } catch (Throwable $e) {
                 self::$redisOk = false;
+                self::$redisTried = true;
+                self::$redisRetryAfter = time() + 60;
                 self::$activeDriver = 'file';
                 self::logRedisFallback($e, 'forget');
             }
@@ -262,7 +270,18 @@ final class Cache
     private function redisClient(): ?Client
     {
         if (self::$redisTried) {
-            return self::$redisOk ? self::$redis : null;
+            if (self::$redisOk) {
+                return self::$redis;
+            }
+            // Brief outage → retry after cooldown (don't stay on file for the whole worker life).
+            if (self::$redisRetryAfter > 0 && time() < self::$redisRetryAfter) {
+                return null;
+            }
+            self::$redisTried = false;
+            self::$redis = null;
+            if ((string) ($this->cacheCfg['default'] ?? 'file') === 'redis') {
+                self::$activeDriver = null;
+            }
         }
         self::$redisTried = true;
 
@@ -295,15 +314,17 @@ final class Cache
             }
 
             $client = new Client($params, [
-                'prefix' => (string) ($this->redisCfg['options']['prefix'] ?? 'pitch_predictions_database_'),
+                'prefix' => (string) ($this->redisCfg['options']['prefix'] ?? 'ajp_database_'),
             ]);
             $client->ping();
             self::$redis = $client;
             self::$redisOk = true;
+            self::$redisRetryAfter = 0;
             return $client;
         } catch (Throwable $e) {
             self::$redis = null;
             self::$redisOk = false;
+            self::$redisRetryAfter = time() + 60;
             self::logRedisFallback($e, 'connect');
             return null;
         }

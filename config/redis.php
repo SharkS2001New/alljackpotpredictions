@@ -1,16 +1,15 @@
 <?php
 /**
- * Redis connections — mirrors pitchpredictionsbackend/config/database.php redis section.
- * In-cluster k3s service name: redis (see pitchpredk3ssetup redis chart).
+ * Redis connections — same contract as baopredictions / pitchpredictionsbackend.
+ * In-cluster k3s: host "redis", password from Secret redis-auth.
  */
 require __DIR__ . '/load-env.php';
 
 return [
     'client' => bao_env('REDIS_CLIENT', 'predis'),
 
-    // Same as pitchpredictionsbackend database.php redis.options.prefix
     'options' => [
-        'prefix' => bao_env('REDIS_PREFIX', 'pitch_predictions_database_'),
+        'prefix' => bao_env('REDIS_PREFIX', 'ajp_database_'),
     ],
 
     'default' => [
@@ -24,7 +23,7 @@ return [
         'read_write_timeout' => 1.5,
     ],
 
-    // Laravel cache store connection
+    // Laravel-style cache store connection (Predis DB for tip/stats payloads).
     'cache' => [
         'url' => bao_env('REDIS_URL'),
         'host' => bao_env('REDIS_HOST', 'redis'),

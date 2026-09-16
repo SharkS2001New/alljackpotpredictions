@@ -17,7 +17,8 @@ function ajp_api_cache_meta(string $path): array
     $cacheKey = 'ajp_api_' . str_replace('-', '_', $path) . '_' . $today;
 
     if ($path === 'stats') {
-        return ['key' => $cacheKey . '_v8', 'ttl' => Cache::ttlStats()];
+        // v9: 24h Redis TTL + lighter stats rebuild (counts from warm page cache).
+        return ['key' => $cacheKey . '_v9', 'ttl' => Cache::ttlStats()];
     }
 
     $pages = require dirname(__DIR__) . '/config/api-pages.php';
@@ -147,6 +148,7 @@ function ajp_curl_api(string $apiPath, array $opts = []): ?array
  * Rebuild a cache key after the response is sent (FPM only).
  * Skipped on php -S / SAPIs without fastcgi_finish_request so we never
  * hold the HTTP connection open for a multi-second StatsService rebuild.
+ * Stats rebuilds are single-flight across workers via a short file lock.
  */
 function ajp_schedule_cache_refresh(string $path, string $cacheKey, int $ttl): void
 {
@@ -161,8 +163,23 @@ function ajp_schedule_cache_refresh(string $path, string $cacheKey, int $ttl): v
 
     register_shutdown_function(static function () use ($path, $cacheKey, $ttl): void {
         @fastcgi_finish_request();
+        $lockFp = null;
         try {
             if ($path === 'stats') {
+                $lockDir = dirname(__DIR__) . '/storage/framework/cache';
+                if (!is_dir($lockDir)) {
+                    @mkdir($lockDir, 0775, true);
+                }
+                $lockPath = $lockDir . '/stats-rebuild.lock';
+                $lockFp = @fopen($lockPath, 'c+');
+                if ($lockFp === false || !flock($lockFp, LOCK_EX | LOCK_NB)) {
+                    return; // another worker is already rebuilding
+                }
+                // Another worker may have filled cache while we waited for the lock attempt.
+                $fresh = Cache::getCachedJsonPayload($cacheKey, false);
+                if (is_array($fresh) && ($fresh['ok'] ?? false) === true) {
+                    return;
+                }
                 $payload = (new \App\Services\StatsService())->payload();
             } else {
                 $api = new \App\Services\PageApiService();
@@ -177,6 +194,11 @@ function ajp_schedule_cache_refresh(string $path, string $cacheKey, int $ttl): v
         } catch (Throwable $e) {
             if (function_exists('bao_log_exception')) {
                 bao_log_exception($e, 'ajp_schedule_cache_refresh failed', ['path' => $path]);
+            }
+        } finally {
+            if (is_resource($lockFp)) {
+                flock($lockFp, LOCK_UN);
+                fclose($lockFp);
             }
         }
     });

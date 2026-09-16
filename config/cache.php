@@ -1,19 +1,18 @@
 <?php
 /**
- * Cache config — mirrors pitchpredictionsbackend/config/cache.php
- * k3s: CACHE_DRIVER=redis (Predis → REDIS_CACHE_DB)
+ * Cache config — same Predis/file contract as baopredictions / pitchpredictionsbackend.
+ * k3s: CACHE_DRIVER=redis (injected by Helm redisEnv → REDIS_CACHE_DB).
  */
 require __DIR__ . '/load-env.php';
 
 $appEnv = (string) bao_env('APP_ENV', 'local');
 
 return [
-    // Same default rule as Laravel backend: redis in production, file otherwise.
+    // Same default rule as bao: redis in production, file otherwise.
     'default' => bao_env('CACHE_DRIVER', $appEnv === 'production' ? 'redis' : 'file'),
 
-    // Match pitchpredictionsbackend (APP_NAME="Pitch Predictions" → pitch_predictions_cache_).
-    // Laravel RedisStore appends ":" after this prefix — see Cache::prefixed().
-    'prefix' => bao_env('CACHE_PREFIX', 'pitch_predictions_cache_'),
+    // Isolate AJP keys on shared Redis (bao uses pitch_predictions_cache_).
+    'prefix' => bao_env('CACHE_PREFIX', 'ajp_cache_'),
 
     'stores' => [
         'file' => [
@@ -22,7 +21,6 @@ return [
         ],
         'redis' => [
             'driver' => 'redis',
-            // Laravel: redis store uses the "cache" connection (REDIS_CACHE_DB).
             'connection' => 'cache',
         ],
     ],

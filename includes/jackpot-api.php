@@ -163,14 +163,18 @@ function ajp_jackpot_request($path) {
     foreach ($bases as $base) {
         $url = rtrim($base, '/') . '/' . ltrim($path, '/');
         $ch = curl_init($url);
+        if ($ch === false) {
+            continue;
+        }
         curl_setopt_array($ch, [
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_TIMEOUT => 15,
-            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYPEER => true,
             CURLOPT_HTTPHEADER => $headers,
         ]);
         $body = curl_exec($ch);
         $code = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
         if ($code === 200 && $body) {
             $json = json_decode($body, true);
             if (is_array($json)) {
