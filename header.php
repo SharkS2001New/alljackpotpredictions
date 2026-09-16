@@ -32,6 +32,12 @@ $__navClass = static function (string $base, bool $on): string {
 };
 ?>
 
+<!-- Thin top progress during navigation (same pattern as Bao Predictions) -->
+<div id="ajp-page-loader" class="ajp-page-progress" role="status" aria-live="polite" aria-busy="false" aria-hidden="true">
+  <span class="ajp-page-progress-bar" aria-hidden="true"></span>
+</div>
+<noscript><style>.ajp-page-progress{display:none!important}</style></noscript>
+
 <!-- MOBILE DRAWER -->
 <input type="checkbox" id="mob-ck">
 <label for="mob-ck" class="mob-overlay"></label>

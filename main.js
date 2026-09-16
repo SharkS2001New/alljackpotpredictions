@@ -394,6 +394,69 @@
     render();
   }());
 
+/* ══════════════════════════════════════════════
+   PAGE NAVIGATION PROGRESS (Bao-style thin top bar)
+   Shows while navigating same-origin links / form submits.
+══════════════════════════════════════════════ */
+(function () {
+  var loader = document.getElementById('ajp-page-loader');
+
+  function showLoader() {
+    if (!loader) return;
+    loader.classList.add('is-active');
+    loader.setAttribute('aria-busy', 'true');
+    loader.setAttribute('aria-hidden', 'false');
+  }
+
+  function hideLoader() {
+    if (!loader) return;
+    loader.classList.remove('is-active');
+    loader.setAttribute('aria-busy', 'false');
+    loader.setAttribute('aria-hidden', 'true');
+  }
+
+  function isModifiedClick(e) {
+    return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1;
+  }
+
+  function shouldShowForLink(a) {
+    if (!a) return false;
+    if (a.target && a.target !== '' && a.target !== '_self') return false;
+    if (a.hasAttribute('download')) return false;
+    var href = a.getAttribute('href');
+    if (!href || href.charAt(0) === '#') return false;
+    if (/^(mailto:|tel:|javascript:)/i.test(href)) return false;
+    try {
+      var url = new URL(href, window.location.href);
+      if (url.origin !== window.location.origin) return false;
+      if (url.pathname === window.location.pathname && url.search === window.location.search) {
+        return false;
+      }
+    } catch (err) {
+      return false;
+    }
+    return true;
+  }
+
+  document.addEventListener('click', function (e) {
+    if (isModifiedClick(e)) return;
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || !shouldShowForLink(a)) return;
+    showLoader();
+  }, true);
+
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || form.tagName !== 'FORM') return;
+    if (form.target && form.target !== '' && form.target !== '_self') return;
+    showLoader();
+  }, true);
+
+  window.addEventListener('pageshow', hideLoader);
+  window.addEventListener('load', hideLoader);
+  setTimeout(hideLoader, 12000);
+}());
+
   /* ══════════════════════════════════════════════
      PROGRESS BAR ANIMATION on scroll
   ══════════════════════════════════════════════ */
