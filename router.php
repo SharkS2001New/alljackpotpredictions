@@ -81,6 +81,27 @@ if (preg_match('#^/api/([a-z0-9\-]+)$#', $uri)) {
         return true;
     }
 }
+// Admin blog cache clear + list rewarm (pitchpredictionsadmin)
+if (
+    $uri === '/api/blog-list'
+    || $uri === '/api/clear-blog-list-cache'
+    || preg_match('#^/api/clear-blog-cache/[a-z0-9][a-z0-9\-]{0,190}$#i', $uri)
+) {
+    if ($servePhp($root . '/api/blog-admin.php')) {
+        return true;
+    }
+}
+if ($uri === '/blog') {
+    if ($servePhp($root . '/blog.php')) {
+        return true;
+    }
+}
+if (preg_match('#^/blog/([a-z0-9][a-z0-9\-]{0,190})$#i', $uri, $m)) {
+    $_GET['slug'] = $m[1];
+    if ($servePhp($root . '/blog-post.php')) {
+        return true;
+    }
+}
 if (preg_match('#^/jackpots/([a-z0-9\-]+)$#', $uri, $m)) {
     $slug = $m[1];
     // Files live in /jackpot-pages/ so the URL prefix /jackpots/ is not a real

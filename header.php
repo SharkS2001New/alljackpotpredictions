@@ -69,6 +69,7 @@ $__navClass = static function (string $base, bool $on): string {
     <a href="/ht-ft-predictions"<?= $__navIs('/ht-ft-predictions') ? ' class="on"' : '' ?>>HT / FT</a>
     <div class="mob-divider"></div>
     <a href="/track-record"<?= $__navIs('/track-record') ? ' class="on"' : '' ?>>Results Log</a>
+    <a href="/blog"<?= $__navIs('/blog') ? ' class="on"' : '' ?>>Blog</a>
     <a href="/about"<?= $__navIs('/about') ? ' class="on"' : '' ?>>About the Desk</a>
     <a href="/responsible-gambling"<?= $__navIs('/responsible-gambling') ? ' class="on"' : '' ?>>Responsible Gambling</a>
   </nav>
@@ -122,6 +123,7 @@ $__navClass = static function (string $base, bool $on): string {
     <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/btts-tips'))) ?>" href="/btts-tips">BTTS</a>
     <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/double-chance-tips'))) ?>" href="/double-chance-tips">Cover Legs</a>
     <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/predictions-weekend'))) ?>" href="/predictions-weekend">Weekend</a>
+    <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/blog'))) ?>" href="/blog">Blog</a>
     <a class="<?= htmlspecialchars($__navClass('nav-a', $__navIs('/track-record'))) ?>" href="/track-record">Results</a>
   </nav>
 </header>

@@ -48,6 +48,7 @@ if (!defined('LL_DATA_DIR')) {
           <h4>Desk</h4>
           <a href="/how-it-works">How it works</a>
           <a href="/track-record">Results Log</a>
+          <a href="/blog">Blog</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
           <a href="/partners">Partners</a>
