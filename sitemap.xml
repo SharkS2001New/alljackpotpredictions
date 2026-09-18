@@ -1,251 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Core -->
+  <url>
+    <loc>https://www.alljackpotpredictions.com/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.alljackpotpredictions.com/blog</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
+  <!-- Boards -->
   <url>
-       <loc>https://www.alljackpotpredictions.com/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+    <loc>https://www.alljackpotpredictions.com/predictions-today</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/blog</loc>
-       <lastmod>2026-09-17T00:00:00+00:00</lastmod>
-       <changefreq>weekly</changefreq>
-       <priority>0.7000</priority>
+    <loc>https://www.alljackpotpredictions.com/predictions-tomorrow</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/predictions-today</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/predictions-weekend</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/predictions-tomorrow</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/accumulator-tips</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jackpot desk -->
+  <url>
+    <loc>https://www.alljackpotpredictions.com/jackpot-picks-today</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/predictions-weekend</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/jackpots/sportpesa-mega-jackpot-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/accumulator-tips</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/jackpots/sportpesa-midweek-jackpot-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/must-win-teams-today</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/jackpots/betika-midweek-jackpot-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpot-picks-today</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/jackpots/odibet-laki-tatu-daily-jackpot-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpots/sportpesa-mega-jackpot-predictions</loc>
-       <lastmod>2026-09-15T12:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9000</priority>
+    <loc>https://www.alljackpotpredictions.com/jackpots/mozzart-super-daily-jackpot-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Bankers / must-win -->
+  <url>
+    <loc>https://www.alljackpotpredictions.com/must-win-teams-today</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpots/sportpesa-midweek-jackpot-predictions</loc>
-       <lastmod>2026-09-15T12:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9000</priority>
+    <loc>https://www.alljackpotpredictions.com/home-teams-to-win-today</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpots/betika-midweek-jackpot-predictions</loc>
-       <lastmod>2026-09-15T12:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9000</priority>
+    <loc>https://www.alljackpotpredictions.com/away-teams-to-win-today</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpots/odibet-laki-tatu-daily-jackpot-predictions</loc>
-       <lastmod>2026-09-15T12:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8500</priority>
+    <loc>https://www.alljackpotpredictions.com/teams-that-will-never-lose</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/jackpots/mozzart-super-daily-jackpot-predictions</loc>
-       <lastmod>2026-09-15T12:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8500</priority>
+    <loc>https://www.alljackpotpredictions.com/most-trusted-teams-to-win</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Markets -->
+  <url>
+    <loc>https://www.alljackpotpredictions.com/1x2-prediction</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/1x2-prediction</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/btts-tips</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/btts-tips</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/over-2-5-goals</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/over-2-5-goals</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/over-1-5-goals</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/over-1-5-goals</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/over-3-5-goals</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/over-3-5-goals</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/under-2-5-goals</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/under-2-5-goals</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/under-3-5-goals</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/under-3-5-goals</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/correct-score-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/correct-score-predictions</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/double-chance-tips</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/double-chance-tips</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/half-time-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/half-time-predictions</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/ht-ft-predictions</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Desk / legal -->
+  <url>
+    <loc>https://www.alljackpotpredictions.com/track-record</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/ht-ft-predictions</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/how-it-works</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/track-record</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/about</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/about</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/contact</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/responsible-gambling</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/partners</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/how-it-works</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/responsible-gambling</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/contact</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/privacy-policy</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/privacy-policy</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/cookie-policy</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/cookie-policy</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/terms</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-       <loc>https://www.alljackpotpredictions.com/terms</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.alljackpotpredictions.com/disclaimer</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/disclaimer</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/partners</loc>
-       <lastmod>2026-03-21T00:00:00+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/feed/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/comments/feed/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/over-2-5-goals-guide/</loc>
-       <lastmod>2026-03-21T20:53:18+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/blog/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/over-2-5-goals-guide/feed/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
-  </url>
-  <url>
-       <loc>https://www.alljackpotpredictions.com/blog/blog/feed/</loc>
-       <lastmod>2026-03-21T22:16:38+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.5120</priority>
-  </url>
+
 </urlset>
