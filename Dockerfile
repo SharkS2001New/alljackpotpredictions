@@ -64,8 +64,9 @@ WORKDIR /var/www/html
 RUN composer install --no-dev --optimize-autoloader --classmap-authoritative --no-interaction
 
 RUN mkdir -p /var/www/html/storage/cache /var/www/html/storage/framework/cache/data \
-    && chown -R www-data:www-data /var/www/html/storage \
-    && chmod -R 775 /var/www/html/storage \
+    /var/www/html/public/site-content \
+    && chown -R www-data:www-data /var/www/html/storage /var/www/html/public/site-content \
+    && chmod -R 775 /var/www/html/storage /var/www/html/public/site-content \
     && chown -R www-data:www-data /var/www/html
 
 EXPOSE 5500

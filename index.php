@@ -24,9 +24,10 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jackpot Predictions, Daily Accas &amp; Free Football Tips | AllJackpotPredictions</title>
+<title>All Jackpot Predictions — Jackpot Tips, Daily Accas &amp; Free Football Tips</title>
 <meta name="description" content="Build smarter jackpot slips and daily accumulators with free football tips from AllJackpotPredictions. SportPesa, Betika and multi-market picks updated every day — entertainment only, 18+.">
 <meta name="keywords" content="jackpot predictions, sportpesa jackpot, betika midweek jackpot, accumulator tips, football tips today, free betting tips, jackpot picks, BTTS tips, over 2.5 tips">
+<meta name="application-name" content="All Jackpot Predictions">
 <meta name="author" content="AllJackpotPredictions Analyst Team">
 <link rel="canonical" href="https://www.alljackpotpredictions.com/">
  
@@ -72,19 +73,19 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
 <!-- Open Graph — Facebook, LinkedIn, WhatsApp, Telegram link previews -->
 <meta property="og:type"        content="website">
 <meta property="og:url"         content="https://www.alljackpotpredictions.com/">
-<meta property="og:title"       content="Jackpot Predictions, Daily Accas &amp; Free Football Tips | AllJackpotPredictions">
+<meta property="og:title"       content="All Jackpot Predictions — Jackpot Tips, Daily Accas &amp; Free Football Tips">
 <meta property="og:description" content="Jackpot sheets, banker anchors and free multi-market tips — built for accumulator builders. Updated daily. 18+ gamble responsibly.">
 <meta property="og:image"       content="https://www.alljackpotpredictions.com/img/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="AllJackpotPredictions — Jackpot predictions and football tips">
-<meta property="og:site_name"   content="AllJackpotPredictions">
+<meta property="og:site_name"   content="All Jackpot Predictions">
 <meta property="og:locale"      content="en_GB">
  
 <!-- Twitter / X Card -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@AllJackpotPredictions">
-<meta name="twitter:title"       content="Jackpot Predictions &amp; Free Acca Tips | AllJackpotPredictions">
+<meta name="twitter:title"       content="All Jackpot Predictions — Jackpot Tips &amp; Free Accas">
 <meta name="twitter:description" content="SportPesa &amp; Betika jackpot ideas plus free daily football tips. Entertainment only.">
 <meta name="twitter:image"       content="https://www.alljackpotpredictions.com/img/og-image.png">
 <meta name="twitter:image:alt"   content="AllJackpotPredictions — Jackpot predictions and football tips">
@@ -102,8 +103,21 @@ if (PHP_SAPI === 'cli-server' && !defined('AJP_AS_PAGE')) {
       "@type": "WebSite",
       "@id": "https://www.alljackpotpredictions.com/#website",
       "url": "https://www.alljackpotpredictions.com/",
-      "name": "AllJackpotPredictions",
-      "description": "Jackpot predictions, accumulator ideas and free multi-market football tips. Entertainment only. 18+. Gamble responsibly."
+      "name": "All Jackpot Predictions",
+      "alternateName": ["AllJackpotPredictions", "AllJackpot", "alljackpotpredictions.com", "www.alljackpotpredictions.com"],
+      "description": "Jackpot predictions, accumulator ideas and free multi-market football tips. Entertainment only. 18+. Gamble responsibly.",
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.alljackpotpredictions.com/#organization",
+        "name": "All Jackpot Predictions",
+        "alternateName": ["AllJackpotPredictions", "alljackpotpredictions.com"],
+        "url": "https://www.alljackpotpredictions.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.alljackpotpredictions.com/img/android-chrome-512x512.png"
+        }
+      }
     }
   ]
 }

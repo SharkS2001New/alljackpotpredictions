@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/half-time-predictions">
 <meta property="og:title" content="Half Time Predictions Today — Half-Time Result Tips 1, X &amp; 2 | AllJackpotPredictions">
 <meta property="og:description" content="Half-time result tips — free daily board on AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/under-3-5-goals">
 <meta property="og:title" content="Under 3.5 Goals Tips Today — 3 Goals or Fewer Predictions | AllJackpotPredictions">
 <meta property="og:description" content="Under 3.5 tips for multi-leg builders — AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/track-record">
 <meta property="og:title" content="Verified Track Record — 74% Win Rate | AllJackpotPredictions">
 <meta property="og:description" content="Full transparent record of every AllJackpotPredictions betting tip. Updated daily after results. 74% win rate this month.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

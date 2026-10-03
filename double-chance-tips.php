@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/double-chance-tips">
 <meta property="og:title" content="Double Chance Tips Today — 1X, X2 &amp; 12 Betting Predictions | AllJackpotPredictions">
 <meta property="og:description" content="Double chance tips built for safer multi-leg sheets — AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

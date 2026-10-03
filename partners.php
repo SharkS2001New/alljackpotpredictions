@@ -20,7 +20,7 @@ header('X-LiteSpeed-Cache-Control: no-cache'); // harmless if your host isn't Li
 <meta property="og:url" content="https://www.alljackpotpredictions.com/partners">
 <meta property="og:title" content="Partners &amp; Link Exchange | AllJackpotPredictions">
 <meta property="og:description" content="AllJackpotPredictions' trusted partner sites in football predictions and betting tips. Partnership and link exchange enquiries welcome.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <script type="application/ld+json">
 {

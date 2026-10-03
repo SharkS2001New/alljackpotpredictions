@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-1-5-goals">
 <meta property="og:title" content="Over 1.5 Goals Tips Today — 2+ Goals Predictions | AllJackpotPredictions">
 <meta property="og:description" content="Safer over 1.5 totals for multi-leg slips — AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

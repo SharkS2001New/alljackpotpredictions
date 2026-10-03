@@ -15,13 +15,16 @@ Options -MultiViews
     RewriteEngine On
     RewriteBase /
 
-    # Page API (Show More / JSON): /api/{page-key}
-    RewriteRule ^api/([a-z0-9\-]+)/?$ api/index.php [L,QSA]
-
     # Admin blog cache clear + list (pitchpredictionsadmin BlogCachePurger)
     RewriteRule ^api/blog-list/?$ api/blog-admin.php [L,QSA]
     RewriteRule ^api/clear-blog-list-cache/?$ api/blog-admin.php [L,QSA]
     RewriteRule ^api/clear-blog-cache/([a-z0-9][a-z0-9\-]{0,190})/?$ api/blog-admin.php [L,QSA]
+
+    # Footer sponsors (pitchpredictionsadmin live PUT / GitHub mirror)
+    RewriteRule ^api/site-content/footer-sponsors/?$ api/footer-sponsors.php [L,QSA]
+
+    # Page API (Show More / JSON): /api/{page-key}
+    RewriteRule ^api/([a-z0-9\-]+)/?$ api/index.php [L,QSA]
 
     # Blog list + post
     RewriteRule ^blog/?$ blog.php [L,QSA]

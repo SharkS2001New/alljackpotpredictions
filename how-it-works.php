@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/how-it-works">
 <meta property="og:title" content="How It Works — How We Build Jackpot Picks &amp; Accas | AllJackpotPredictions">
 <meta property="og:description" content="Six-stage methodology behind every AllJackpotPredictions tip. Transparent, data-driven, analyst-reviewed, published before kick-off.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

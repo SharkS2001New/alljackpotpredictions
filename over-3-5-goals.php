@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-3-5-goals">
 <meta property="og:title" content="Over 3.5 Goals Tips Today — 4+ Goals Predictions | AllJackpotPredictions">
 <meta property="og:description" content="High-event over 3.5 tips — free board from AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

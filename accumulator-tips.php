@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/accumulator-tips">
 <meta property="og:title" content="Accumulator Tips Today — Free Football Acca Predictions | AllJackpotPredictions">
 <meta property="og:description" content="Ready-made acca ideas and accumulator tips — AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

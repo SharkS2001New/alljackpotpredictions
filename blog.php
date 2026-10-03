@@ -158,7 +158,7 @@ function ajp_blog_page_url(int $pageNum, string $category): string
 <meta property="og:description" content="Jackpot strategy, banker shortlists and accumulator guides from the AllJackpotPredictions desk.">
 <meta property="og:url" content="<?php echo htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8'); ?>">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 <meta name="theme-color" content="#c9a227">
 <link rel="icon" href="/img/favicon.ico" sizes="any">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">

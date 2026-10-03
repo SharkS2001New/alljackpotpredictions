@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/contact">
 <meta property="og:title" content="Contact AllJackpotPredictions">
 <meta property="og:description" content="Get in touch with the AllJackpotPredictions team for general enquiries, editorial feedback, advertising or legal requests.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

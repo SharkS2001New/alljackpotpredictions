@@ -91,6 +91,12 @@ if (
         return true;
     }
 }
+// Footer sponsors (pitchpredictionsadmin live PUT)
+if ($uri === '/api/site-content/footer-sponsors') {
+    if ($servePhp($root . '/api/footer-sponsors.php')) {
+        return true;
+    }
+}
 if ($uri === '/blog') {
     if ($servePhp($root . '/blog.php')) {
         return true;

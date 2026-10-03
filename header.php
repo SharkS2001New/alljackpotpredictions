@@ -43,7 +43,7 @@ $__navClass = static function (string $base, bool $on): string {
 <label for="mob-ck" class="mob-overlay"></label>
 <div class="mob-drawer">
   <div class="mob-head">
-    <div class="mob-logo">AllJackpot<span>Predictions</span></div>
+    <div class="mob-logo">All Jackpot<span>Predictions</span></div>
     <label for="mob-ck" class="mob-close">✕</label>
   </div>
   <nav class="mob-nav">
@@ -95,11 +95,11 @@ $__navClass = static function (string $base, bool $on): string {
 <header class="nav">
   <!-- Top row: logo + controls -->
   <div class="nav-top">
-    <a class="nav-logo" href="/">
+    <a class="nav-logo" href="/" aria-label="All Jackpot Predictions home">
       <div class="nav-logo-mark">
         <img src="/img/logo-mark.svg" alt="" width="36" height="36" />
       </div>
-      <span class="logo-tip">AllJackpot</span><span class="logo-accent">Predictions</span>
+      <span class="logo-tip">All Jackpot</span><span class="logo-accent">Predictions</span>
     </a>
     <div class="nav-end">
       <div class="date-pill" id="datePill">FRI 20 MAR</div>

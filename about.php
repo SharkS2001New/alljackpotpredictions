@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/about">
 <meta property="og:title" content="About AllJackpotPredictions — Jackpot Desk &amp; Analyst Team">
 <meta property="og:description" content="Meet the editorial team behind AllJackpotPredictions. Our mission, standards and the story of how we built a transparent, data-driven football tips service.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

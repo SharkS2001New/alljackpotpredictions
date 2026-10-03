@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/responsible-gambling">
 <meta property="og:title" content="Responsible Gambling — Tools, Support & Safe Betting Guidance | AllJackpotPredictions">
 <meta property="og:description" content="Recognise the signs of problem gambling and find free, confidential support. GamStop, GamCare, BeGambleAware and more — all in one place.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

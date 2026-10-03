@@ -12,7 +12,7 @@ require_once dirname(__DIR__) . '/config/load-env.php';
 require_once dirname(__DIR__) . '/src/Support/log.php';
 require_once dirname(__DIR__) . '/src/Support/Cache.php';
 require_once dirname(__DIR__) . '/src/Services/BlogService.php';
-require_once __DIR__ . '/blog-cache-auth.php';
+require_once dirname(__DIR__) . '/includes/blog-cache-auth.php';
 require_once dirname(__DIR__) . '/src/Api/helpers.php';
 
 use App\Services\BlogService;

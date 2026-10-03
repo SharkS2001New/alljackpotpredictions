@@ -28,7 +28,7 @@ $totalCatalog = count($allSlugs);
 <meta property="og:url" content="https://www.alljackpotpredictions.com/jackpot-picks-today">
 <meta property="og:title" content="Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions">
 <meta property="og:description" content="Banker shortlist for today's slips — Jackpot Picks on AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">
 <meta name="twitter:title" content="Jackpot Picks Today — Banker Tips Of The Day | AllJackpotPredictions">

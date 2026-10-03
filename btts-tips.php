@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/btts-tips">
 <meta property="og:title" content="BTTS Tips Today — Both Teams to Score Predictions | AllJackpotPredictions">
 <meta property="og:description" content="BTTS Yes/No ideas for multi-leg slips — free daily board from AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

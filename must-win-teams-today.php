@@ -69,7 +69,7 @@ $mwKicker = $mwKicker ?? $__mw['kicker'];
 <meta property="og:url" content="<?php echo htmlspecialchars($mwCanonical); ?>">
 <meta property="og:title" content="<?php echo htmlspecialchars($mwPageTitle); ?>">
 <meta property="og:description" content="<?php echo htmlspecialchars($mwMetaDescription); ?>">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

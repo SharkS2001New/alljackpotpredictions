@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/1x2-prediction">
 <meta property="og:title" content="1X2 Tips for Jackpot Anchors &amp; Match Results | AllJackpotPredictions">
 <meta property="og:description" content="1X2 tips for slip builders — banker-friendly home and away leans, updated daily on AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

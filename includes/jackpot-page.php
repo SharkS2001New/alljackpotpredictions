@@ -168,7 +168,7 @@ $shortName = preg_replace('/\s+Predictions$/i', '', $defaultTitle) ?: $defaultTi
 <meta property="og:title" content="<?= htmlspecialchars($h1) ?> | AllJackpotPredictions">
 <meta property="og:description" content="<?= htmlspecialchars($metaDescription) ?>">
 <meta property="og:url" content="<?= htmlspecialchars($canonical) ?>">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<?= htmlspecialchars($h1) ?> | AllJackpotPredictions">
 <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription) ?>">

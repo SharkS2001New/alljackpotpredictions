@@ -1745,6 +1745,36 @@ aside.sidebar { display: flex; flex-direction: column; gap: 20px; }
 }
 .ajp-ft-rg-row a:hover { color: #fff; text-decoration: underline; }
 
+.ajp-ft-sponsors {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 22px 0;
+  text-align: center;
+}
+.ajp-ft-sponsors-label {
+  margin: 0 0 0.75rem;
+  font-family: var(--fdisp);
+  font-size: .95rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+}
+.ajp-ft-sponsor-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem 1.25rem;
+}
+.ajp-ft-sponsor-links a {
+  font-family: var(--fsans);
+  font-size: .95rem;
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.ajp-ft-sponsor-links a:hover { color: #e8d48b; }
+
 .ajp-ft-bottom { padding: 22px 0 28px; }
 .ajp-ft-bottom .ajp-ft-wrap {
   display: flex;

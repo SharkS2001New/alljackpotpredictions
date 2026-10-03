@@ -81,6 +81,55 @@ if (!defined('LL_DATA_DIR')) {
     </div>
   </div>
 
+<?php
+    try {
+        $ajpFooterRoot = __DIR__;
+        $ajpAutoload = $ajpFooterRoot . '/vendor/autoload.php';
+        if (is_file($ajpAutoload)) {
+            require_once $ajpAutoload;
+        }
+        if (!class_exists(\App\Services\FooterSponsorsService::class, false)) {
+            require_once $ajpFooterRoot . '/src/Services/FooterSponsorsService.php';
+        }
+        $ajpFooterSponsors = (new \App\Services\FooterSponsorsService())->visibleLinks();
+    } catch (Throwable $e) {
+        $ajpFooterSponsors = [];
+    }
+?>
+<?php if (!empty($ajpFooterSponsors)): ?>
+  <div class="ajp-ft-sponsors">
+    <div class="ajp-ft-wrap">
+      <p class="ajp-ft-sponsors-label">Our Partners &amp; Sponsors</p>
+      <div class="ajp-ft-sponsor-links">
+<?php foreach ($ajpFooterSponsors as $sponsor): ?>
+<?php
+  $sponsorUrl = trim((string) ($sponsor['url'] ?? ''));
+  $sponsorUrl = preg_replace('#\./+#', '/', $sponsorUrl) ?? $sponsorUrl;
+  $sponsorUrl = rtrim($sponsorUrl, " \t.");
+  $sponsorLabel = trim((string) ($sponsor['label'] ?? ''));
+  $sponsorLabel = preg_replace('#\./+#', '/', $sponsorLabel) ?? $sponsorLabel;
+  $sponsorLabel = rtrim($sponsorLabel, " \t.");
+  if ($sponsorLabel === '') {
+      $sponsorLabel = $sponsorUrl;
+  }
+  if ($sponsorLabel === $sponsorUrl || preg_match('#^https?://#i', $sponsorLabel)) {
+      $host = parse_url($sponsorUrl !== '' ? $sponsorUrl : $sponsorLabel, PHP_URL_HOST);
+      if (is_string($host) && $host !== '') {
+          $sponsorLabel = $host;
+      }
+  }
+?>
+        <a
+          href="<?= htmlspecialchars($sponsorUrl !== '' ? $sponsorUrl : (string) ($sponsor['url'] ?? '#'), ENT_QUOTES, 'UTF-8') ?>"
+          rel="<?= htmlspecialchars(implode(' ', $sponsor['rel'] ?? ['noopener', 'noreferrer']), ENT_QUOTES, 'UTF-8') ?>"
+          target="_blank"
+        ><?= htmlspecialchars($sponsorLabel, ENT_QUOTES, 'UTF-8') ?></a>
+<?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+<?php endif; ?>
+
   <div class="ajp-ft-bottom">
     <div class="ajp-ft-wrap">
       <p class="ajp-ft-legal">

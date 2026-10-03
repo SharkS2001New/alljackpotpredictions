@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/over-2-5-goals">
 <meta property="og:title" content="Over 2.5 Goals Tips Today — 3+ Goals Predictions | AllJackpotPredictions">
 <meta property="og:description" content="Over 2.5 tips aimed at slip builders — free daily goals board on AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/predictions-today">
 <meta property="og:title" content="Football Predictions Today — Free Tips Across All Markets | AllJackpotPredictions">
 <meta property="og:description" content="Today's multi-market tips board for slip builders — AllJackpotPredictions.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

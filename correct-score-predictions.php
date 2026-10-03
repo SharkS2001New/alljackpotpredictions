@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://www.alljackpotpredictions.com/correct-score-predictions">
 <meta property="og:title" content="Correct Score Predictions Today — Exact Score Tips | AllJackpotPredictions">
 <meta property="og:description" content="Correct score tips for long-shot spice — not jackpot anchors.">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@AllJackpotPreds">

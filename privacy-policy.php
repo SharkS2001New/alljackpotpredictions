@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.alljackpotpredictions.com/privacy-policy">
 <meta property="og:title" content="Privacy Policy | AllJackpotPredictions">
-<meta property="og:site_name" content="AllJackpotPredictions">
+<meta property="og:site_name" content="All Jackpot Predictions">
 
 <script type="application/ld+json">
 {
